@@ -2,15 +2,20 @@
 //  ContentView.swift
 //  Keychron
 //
-//  Created by indra on 14/06/22.
+//  Created by Jorge Martinez on 14/06/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: {
+            print()
+        }, label: {
+            SingleKeyCapView(colorSet: .lightGrayKeycap)
+        })
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
