@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
+		2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */; };
 		2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72EA2859071700AB71E1 /* KeychronApp.swift */; };
 		2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72EC2859071700AB71E1 /* ContentView.swift */; };
 		2DCC72EF2859071900AB71E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC72EE2859071900AB71E1 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
+		2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKeycapView.swift; sourceTree = "<group>"; };
 		2DCC72E72859071700AB71E1 /* Keychron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keychron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCC72EA2859071700AB71E1 /* KeychronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychronApp.swift; sourceTree = "<group>"; };
 		2DCC72EC2859071700AB71E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC72FC285940D300AB71E1 /* SingleKeyCapView.swift */,
+				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
+				2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */,
+			);
+			path = Keycaps;
+			sourceTree = "<group>";
+		};
 		2DCC72DE2859071700AB71E1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,13 +71,13 @@
 		2DCC72E92859071700AB71E1 /* Keychron */ = {
 			isa = PBXGroup;
 			children = (
+				2D7E9225285BBFCA006F0D22 /* Keycaps */,
 				2DCC72EA2859071700AB71E1 /* KeychronApp.swift */,
 				2DCC72EC2859071700AB71E1 /* ContentView.swift */,
 				2DCC72EE2859071900AB71E1 /* Assets.xcassets */,
 				2DCC72F02859071900AB71E1 /* Preview Content */,
 				2DCC72F82859193F00AB71E1 /* Trapezoid.swift */,
 				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
-				2DCC72FC285940D300AB71E1 /* SingleKeyCapView.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";
@@ -146,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */,
+				2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */,
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
 				2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */,
 				2DCC72FD285940D300AB71E1 /* SingleKeyCapView.swift in Sources */,

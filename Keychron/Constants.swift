@@ -7,6 +7,35 @@
 
 import SwiftUI
 
+struct Keycaps {
+    
+    struct Size {
+        
+        static let height: CGFloat = 60
+        static let single: CGFloat = height
+        static let singleQuarter: CGFloat = single * 1.25
+    //    static let singleHalf: CGFloat
+    //    static let singleThreeQuarter: CGFloat
+    //    static let double: CGFloat
+    //    static let doubleQuarter: CGFloat
+    //    static let doubleThreeQuarter: CGFloat
+    //    static let sixQuarter: CGFloat
+        
+    }
+    
+    struct Fonts {
+        private static let fontSize: CGFloat = Keycaps.Size.height * 0.30
+        private static let altFontSize: CGFloat = Keycaps.Size.height * 0.15
+        static let mainFont: Font = .system(size: fontSize)
+        static let altFont: Font = .system(size: altFontSize)
+        
+    }
+    
+
+    
+    
+}
+
 enum ColorSet {
     case lightGrayKeycap
     case darkGrayKeycap
