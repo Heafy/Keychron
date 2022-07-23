@@ -16,7 +16,7 @@ struct Keycaps {
         static let singleQuarter: CGFloat = single * 1.25
         static let singleHalf: CGFloat = single * 1.5
         static let singleThreeQuarter: CGFloat = single * 1.75
-    //    static let double: CGFloat
+        static let double: CGFloat = single * 2
     //    static let doubleQuarter: CGFloat
     //    static let doubleThreeQuarter: CGFloat
     //    static let sixQuarter: CGFloat

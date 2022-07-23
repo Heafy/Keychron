@@ -1,5 +1,5 @@
 //
-//  SingleKeyCapView.swift
+//  SingleKeycapView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 14/06/22.
@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-
-
-struct SingleKeyCapView: Keycap {
+struct SingleKeycapView: Keycap {
     
     var text: String
     var alternativetext: String?
@@ -47,7 +45,7 @@ struct SingleKeyCapView: Keycap {
                     .foregroundColor(.white)
                     .fontWeight(.bold)
                     .font(Keycaps.Fonts.mainFont)
-                    .padding(.top, 4)
+                    .padding(.top, 5)
                 
                 if let alternativetext = alternativetext {
                     Text(alternativetext)
@@ -65,10 +63,10 @@ struct SingleKeyCapView: Keycap {
 struct SingleKeyCapView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            SingleKeyCapView(text: "1", alternativetext: "B" ,colorSet: .lightGrayKeycap)
-            SingleKeyCapView(text: "Q", colorSet: .lightGrayKeycap)
-            SingleKeyCapView(text: "W", colorSet: .darkGrayKeycap)
-            SingleKeyCapView(text: "E", colorSet: .orangeKeycap)
+            SingleKeycapView(text: "1", alternativetext: "B" ,colorSet: .lightGrayKeycap)
+            SingleKeycapView(text: "Q", colorSet: .lightGrayKeycap)
+            SingleKeycapView(text: "W", colorSet: .darkGrayKeycap)
+            SingleKeycapView(text: "E", colorSet: .orangeKeycap)
         }
         .previewLayout(.sizeThatFits)
         .padding()

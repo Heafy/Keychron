@@ -10,6 +10,7 @@
 		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
 		2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */; };
 		2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */; };
+		2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F3F2A288B655900EBAD5C /* DoubleKeycapView.swift */; };
 		2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */; };
 		2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72EA2859071700AB71E1 /* KeychronApp.swift */; };
 		2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72EC2859071700AB71E1 /* ContentView.swift */; };
@@ -17,13 +18,14 @@
 		2DCC72F22859071900AB71E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC72F12859071900AB71E1 /* Preview Assets.xcassets */; };
 		2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72F82859193F00AB71E1 /* Trapezoid.swift */; };
 		2DCC72FB28593C9200AB71E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FA28593C9200AB71E1 /* Constants.swift */; };
-		2DCC72FD285940D300AB71E1 /* SingleKeyCapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FC285940D300AB71E1 /* SingleKeyCapView.swift */; };
+		2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
 		2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKeycapView.swift; sourceTree = "<group>"; };
 		2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHalfKeycapView.swift; sourceTree = "<group>"; };
+		2D8F3F2A288B655900EBAD5C /* DoubleKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleKeycapView.swift; sourceTree = "<group>"; };
 		2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThreeQuarterKeycapView.swift; sourceTree = "<group>"; };
 		2DCC72E72859071700AB71E1 /* Keychron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keychron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCC72EA2859071700AB71E1 /* KeychronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychronApp.swift; sourceTree = "<group>"; };
@@ -32,7 +34,7 @@
 		2DCC72F12859071900AB71E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DCC72F82859193F00AB71E1 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 		2DCC72FA28593C9200AB71E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		2DCC72FC285940D300AB71E1 /* SingleKeyCapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeyCapView.swift; sourceTree = "<group>"; };
+		2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,13 +51,30 @@
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
 			isa = PBXGroup;
 			children = (
+				2D8F3F2D288B728F00EBAD5C /* Double */,
+				2D8F3F2C288B723400EBAD5C /* Single */,
 				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
-				2DCC72FC285940D300AB71E1 /* SingleKeyCapView.swift */,
-				2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */,
-				2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */,
-				2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */,
 			);
 			path = Keycaps;
+			sourceTree = "<group>";
+		};
+		2D8F3F2C288B723400EBAD5C /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */,
+				2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */,
+				2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */,
+				2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		2D8F3F2D288B728F00EBAD5C /* Double */ = {
+			isa = PBXGroup;
+			children = (
+				2D8F3F2A288B655900EBAD5C /* DoubleKeycapView.swift */,
+			);
+			path = Double;
 			sourceTree = "<group>";
 		};
 		2DCC72DE2859071700AB71E1 = {
@@ -170,8 +189,9 @@
 				2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */,
 				2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */,
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
+				2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */,
 				2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */,
-				2DCC72FD285940D300AB71E1 /* SingleKeyCapView.swift in Sources */,
+				2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */,
 				2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */,
 				2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift in Sources */,
 				2DCC72FB28593C9200AB71E1 /* Constants.swift in Sources */,
