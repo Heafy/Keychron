@@ -2,7 +2,7 @@
 //  DoubleThreeQuarterKeycapView.swift
 //  Keychron
 //
-//  Created by indra on 22/07/22.
+//  Created by Jorge Martinez on 22/07/22.
 //
 
 import SwiftUI

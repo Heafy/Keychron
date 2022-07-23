@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D62462C288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */; };
+		2D62462E288B84BA00473B79 /* SpacebarKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */; };
 		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
 		2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */; };
 		2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThreeQuarterKeycapView.swift; sourceTree = "<group>"; };
+		2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacebarKeycapView.swift; sourceTree = "<group>"; };
 		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
 		2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKeycapView.swift; sourceTree = "<group>"; };
 		2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHalfKeycapView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				2D8F3F2D288B728F00EBAD5C /* Double */,
 				2D8F3F2C288B723400EBAD5C /* Single */,
 				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
+				2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */,
 			);
 			path = Keycaps;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				2D62462C288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift in Sources */,
 				2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */,
+				2D62462E288B84BA00473B79 /* SpacebarKeycapView.swift in Sources */,
 				2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */,
 				2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */,
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
