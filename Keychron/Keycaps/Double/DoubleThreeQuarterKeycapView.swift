@@ -1,17 +1,17 @@
 //
-//  DoubleQuarterKeycapView.swift
+//  DoubleThreeQuarterKeycapView.swift
 //  Keychron
 //
-//  Created by Jorge Martinez on 22/07/22.
+//  Created by indra on 22/07/22.
 //
 
 import SwiftUI
 
-struct DoubleQuarterKeycapView: Keycap {
+struct DoubleThreeQuarterKeycapView: Keycap {
     
     var text: String
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.doubleQuarter
+    var width: CGFloat = Keycaps.Size.doubleThreeQuarter
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -21,18 +21,18 @@ struct DoubleQuarterKeycapView: Keycap {
                 .frame(width: width, height: height)
                 .cornerRadius(10)
             
-            Trapezoid(percent: 15, leftOffSet: -4, rightOffset: 3)
+            Trapezoid(percent: 15, leftOffSet: -4, rightOffset: 7)
                 .fill(colorSet.leftColor)
-                .frame(width: height, height: 15)
+                .frame(width: height * 1.1, height: 25)
                 .rotationEffect(.degrees(90))
-                .offset(x: -(width/2.25), y: (height/2.5))
-            
-            Trapezoid(percent: 15, leftOffSet: 3, rightOffset: -4)
+                .offset(x: -(width/2.2), y: (height/3))
+    
+            Trapezoid(percent: 15, leftOffSet: 7, rightOffset: -4)
                 .fill(colorSet.leftColor)
-                .frame(width: height, height: 15)
+                .frame(width: height * 1.1, height: 25)
                 .rotationEffect(.degrees(-90))
-                .offset(x: (width/2.25), y: (height/2.5))
-            
+                .offset(x: (width/2.2), y: (height/3))
+
             Rectangle()
                 .fill(colorSet.mainColor)
                 .frame(width: width * 0.80, height: height * 0.75)
@@ -51,13 +51,12 @@ struct DoubleQuarterKeycapView: Keycap {
         .cornerRadius(10)
     }
 }
-
-struct DoubleQuarterKeycapView_Previews: PreviewProvider {
+struct DoubleThreeQuarterKeycapView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            DoubleQuarterKeycapView(text: "1", colorSet: .lightGrayKeycap)
-            DoubleQuarterKeycapView(text: "2", colorSet: .darkGrayKeycap)
-            DoubleQuarterKeycapView(text: "3", colorSet: .orangeKeycap)
+            DoubleThreeQuarterKeycapView(text: "1", colorSet: .lightGrayKeycap)
+            DoubleThreeQuarterKeycapView(text: "2", colorSet: .darkGrayKeycap)
+            DoubleThreeQuarterKeycapView(text: "3", colorSet: .orangeKeycap)
         }
         .previewLayout(.sizeThatFits)
         .padding()
