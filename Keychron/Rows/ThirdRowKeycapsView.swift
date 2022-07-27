@@ -2,15 +2,16 @@
 //  ThirdRowKeycapsView.swift
 //  Keychron
 //
-//  Created by indra on 27/07/22.
+//  Created by Jorge Martinez on 27/07/22.
 //
 
 import SwiftUI
 
 struct ThirdRowKeycapsView: View {
     var body: some View {
-        HStack(spacing: 0.5) {
-            HStack(spacing: 0.5) {
+        HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
+            
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleThreeQuarterKeycapView(text: "caps", colorSet: .darkGrayKeycap)
                 SingleKeycapView(text: "A", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "S", colorSet: .lightGrayKeycap)
@@ -18,16 +19,17 @@ struct ThirdRowKeycapsView: View {
                 SingleKeycapView(text: "F", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "G", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "H", colorSet: .lightGrayKeycap)
-            }
-            HStack(spacing: 0.5) {
+            } //: HStack
+            
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "J", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "K", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "L", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "; :", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "' \"", colorSet: .lightGrayKeycap)
                 DoubleQuarterKeycapView(text: "↵", colorSet: .darkGrayKeycap)
-            }
-        }
+            } //: HStack
+        }  //: HStack
     }
 }
 

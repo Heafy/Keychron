@@ -68,6 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1FC1732891F44700BF86EE /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */,
+				2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */,
+				2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */,
+				2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */,
+				2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */,
+				2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +132,7 @@
 		2DCC72E92859071700AB71E1 /* Keychron */ = {
 			isa = PBXGroup;
 			children = (
+				2D1FC1732891F44700BF86EE /* Rows */,
 				2D7E9225285BBFCA006F0D22 /* Keycaps */,
 				2DCC72EA2859071700AB71E1 /* KeychronApp.swift */,
 				2DCC72EC2859071700AB71E1 /* ContentView.swift */,
@@ -127,12 +141,6 @@
 				2DCC72F82859193F00AB71E1 /* Trapezoid.swift */,
 				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
 				2DD27BF32891C52400177AED /* TestView.swift */,
-				2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */,
-				2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */,
-				2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */,
-				2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */,
-				2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */,
-				2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";

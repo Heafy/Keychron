@@ -29,6 +29,12 @@ struct Keycaps {
         static let mainFont: Font = .system(size: fontSize)
         static let altFont: Font = .system(size: altFontSize)
     }
+    
+    struct Dimensions {
+        static let verticalSpacing: CGFloat = 1
+        static let horizontalSpacing: CGFloat = 0.5
+        static let sectorSpacing: CGFloat = 15
+    }
 }
 
 enum ColorSet {

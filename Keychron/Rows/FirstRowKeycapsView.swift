@@ -2,15 +2,16 @@
 //  FirstRowKeycapsView.swift
 //  Keychron
 //
-//  Created by indra on 27/07/22.
+//  Created by Jorge Martinez on 27/07/22.
 //
 
 import SwiftUI
 
 struct FirstRowKeycapsView: View {
     var body: some View {
-        HStack(spacing: 0.5) {
-            HStack(spacing: 0.5) {
+        HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
+            
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "` ~", colorSet: .darkGrayKeycap)
                 SingleKeycapView(text: "1 !", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "2 @", colorSet: .lightGrayKeycap)
@@ -18,8 +19,9 @@ struct FirstRowKeycapsView: View {
                 SingleKeycapView(text: "4 $", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "5 %", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "6 ˆ", colorSet: .lightGrayKeycap)
-            }
-            HStack(spacing: 0.5) {
+            } //: HStack
+            
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "7 &", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "8 *", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "9 (", colorSet: .lightGrayKeycap)
@@ -27,17 +29,16 @@ struct FirstRowKeycapsView: View {
                 SingleKeycapView(text: "- _", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "= +", colorSet: .lightGrayKeycap)
                 DoubleKeycapView(text: "←", colorSet: .darkGrayKeycap)
-            }
+            } //: HStack
             
-            Spacer()
-                    .frame(width: 15)
+            Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
-            HStack(spacing: 0.5) {
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "ins", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "home", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "pgup", colorSet: .lightGrayKeycap)
-            }
-        }
+            } //: HStack
+        } //: HStack
     }
 }
 

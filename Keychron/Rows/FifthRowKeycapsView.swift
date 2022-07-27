@@ -2,16 +2,16 @@
 //  FifthRowKeycapsView.swift
 //  Keychron
 //
-//  Created by indra on 27/07/22.
+//  Created by Jorge Martinez on 27/07/22.
 //
 
 import SwiftUI
 
 struct FifthRowKeycapsView: View {
     var body: some View {
-        HStack(spacing: 0.5) {
+        HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
             
-            HStack(spacing: 0.5) {
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleQuarterKeycapView(text: "control", colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "option", colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "command", colorSet: .darkGrayKeycap)
@@ -20,18 +20,16 @@ struct FifthRowKeycapsView: View {
                 SingleQuarterKeycapView(text: "option", colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "fn", colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "control", colorSet: .darkGrayKeycap)
-            }
+            } //: HStack
             
-            Spacer()
-                    .frame(width: 15)
+            Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
-            HStack(spacing: 0.5) {
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "←", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "↓", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "→", colorSet: .lightGrayKeycap)
-            }
-            
-        }
+            } //: HStack
+        } //: HStack
     }
 }
 

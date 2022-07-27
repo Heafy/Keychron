@@ -2,15 +2,15 @@
 //  FourthRowKeycapsView.swift
 //  Keychron
 //
-//  Created by indra on 27/07/22.
+//  Created by Jorge Martinez on 27/07/22.
 //
 
 import SwiftUI
 
 struct FourthRowKeycapsView: View {
     var body: some View {
-        HStack(spacing: 0.5) {
-            HStack(spacing: 0.5) {
+        HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 DoubleQuarterKeycapView(text: "shift", colorSet: .darkGrayKeycap)
                 SingleKeycapView(text: "Z", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "X", colorSet: .lightGrayKeycap)
@@ -18,26 +18,24 @@ struct FourthRowKeycapsView: View {
                 SingleKeycapView(text: "V", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "B", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "N", colorSet: .lightGrayKeycap)
-            }
+            } //: HStack
             
-            HStack(spacing: 0.5) {
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "M", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: ", <", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: ". >", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "/ ?", colorSet: .lightGrayKeycap)
                 DoubleThreeQuarterKeycapView(text: "shift", colorSet: .darkGrayKeycap)
-            }
+            } //: HStack
             
-            Spacer()
-                    .frame(width: 15)
+            Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
-            HStack(spacing: 0.5) {
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 Spacer().frame(width: Keycaps.Size.single)
                 SingleKeycapView(text: "↑", colorSet: .lightGrayKeycap)
                 Spacer().frame(width: Keycaps.Size.single)
-            }
-            
-        }
+            } //: HStack
+        } //: HStack
     }
 }
 

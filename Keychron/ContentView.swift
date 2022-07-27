@@ -10,10 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 1) {
-            HStack {
-                TopRowKeycapView()
-            }
+        VStack(alignment: .leading, spacing: Keycaps.Dimensions.verticalSpacing) {
+            TopRowKeycapView()
+            Spacer().frame(height: Keycaps.Dimensions.verticalSpacing * 5)
             FirstRowKeycapsView()
             SecondRowKeycapsView()
             ThirdRowKeycapsView()
