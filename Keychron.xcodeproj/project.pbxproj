@@ -22,6 +22,13 @@
 		2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72F82859193F00AB71E1 /* Trapezoid.swift */; };
 		2DCC72FB28593C9200AB71E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FA28593C9200AB71E1 /* Constants.swift */; };
 		2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */; };
+		2DD27BF42891C52400177AED /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF32891C52400177AED /* TestView.swift */; };
+		2DD27BF62891C7D800177AED /* FirstRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */; };
+		2DD27BF82891CBE200177AED /* SecondRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */; };
+		2DD27BFA2891CE5200177AED /* ThirdRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */; };
+		2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */; };
+		2DD27BFE2891D1B300177AED /* FifthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */; };
+		2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +48,13 @@
 		2DCC72F82859193F00AB71E1 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 		2DCC72FA28593C9200AB71E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapView.swift; sourceTree = "<group>"; };
+		2DD27BF32891C52400177AED /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowKeycapsView.swift; sourceTree = "<group>"; };
+		2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRowKeycapsView.swift; sourceTree = "<group>"; };
+		2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRowKeycapsView.swift; sourceTree = "<group>"; };
+		2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthRowKeycapsView.swift; sourceTree = "<group>"; };
+		2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthRowKeycapsView.swift; sourceTree = "<group>"; };
+		2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowKeycapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +71,9 @@
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
 			isa = PBXGroup;
 			children = (
+				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
 				2D8F3F2D288B728F00EBAD5C /* Double */,
 				2D8F3F2C288B723400EBAD5C /* Single */,
-				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
 				2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */,
 			);
 			path = Keycaps;
@@ -112,6 +126,13 @@
 				2DCC72F02859071900AB71E1 /* Preview Content */,
 				2DCC72F82859193F00AB71E1 /* Trapezoid.swift */,
 				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
+				2DD27BF32891C52400177AED /* TestView.swift */,
+				2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */,
+				2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */,
+				2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */,
+				2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */,
+				2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */,
+				2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";
@@ -194,14 +215,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD27BF42891C52400177AED /* TestView.swift in Sources */,
 				2D62462C288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift in Sources */,
 				2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */,
 				2D62462E288B84BA00473B79 /* SpacebarKeycapView.swift in Sources */,
+				2DD27BF82891CBE200177AED /* SecondRowKeycapsView.swift in Sources */,
+				2DD27BFE2891D1B300177AED /* FifthRowKeycapsView.swift in Sources */,
 				2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */,
 				2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */,
+				2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */,
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
 				2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */,
+				2DD27BF62891C7D800177AED /* FirstRowKeycapsView.swift in Sources */,
+				2DD27BFA2891CE5200177AED /* ThirdRowKeycapsView.swift in Sources */,
 				2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */,
+				2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */,
 				2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */,
 				2D8F3F2F288B735300EBAD5C /* DoubleQuarterKeycapView.swift in Sources */,
 				2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */,

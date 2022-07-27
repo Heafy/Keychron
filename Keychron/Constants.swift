@@ -19,7 +19,7 @@ struct Keycaps {
         static let double: CGFloat = single * 2
         static let doubleQuarter: CGFloat = double * 1.14
         static let doubleThreeQuarter: CGFloat = double * 1.40
-        static let spacebar: CGFloat = single * 6
+        static let spacebar: CGFloat = single * 6.35
     }
     
     struct Fonts {
