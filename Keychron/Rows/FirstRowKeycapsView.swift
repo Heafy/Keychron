@@ -19,7 +19,7 @@ struct FirstRowKeycapsView: View {
                 SingleKeycapView(text: "4 $", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "5 %", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "6 ˆ", colorSet: .lightGrayKeycap)
-            } //: HStack
+            } // HStack
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "7 &", colorSet: .lightGrayKeycap)
@@ -28,8 +28,8 @@ struct FirstRowKeycapsView: View {
                 SingleKeycapView(text: "0 )", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "- _", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "= +", colorSet: .lightGrayKeycap)
-                DoubleKeycapView(text: "←", colorSet: .darkGrayKeycap)
-            } //: HStack
+                DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .darkGrayKeycap)
+            } // HStack
             
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
@@ -37,8 +37,8 @@ struct FirstRowKeycapsView: View {
                 SingleKeycapView(text: "ins", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "home", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "pgup", colorSet: .lightGrayKeycap)
-            } //: HStack
-        } //: HStack
+            } // HStack
+        } // HStack
     }
 }
 

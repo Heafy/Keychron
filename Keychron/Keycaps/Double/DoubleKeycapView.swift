@@ -38,13 +38,10 @@ struct DoubleKeycapView: Keycap {
                 .frame(width: width * 0.75, height: height * 0.75)
                 .cornerRadius(4)
                 .padding(5)
-
+            
             VStack(spacing: 0) {
-                Text(text)
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .font(Keycaps.Fonts.mainFont)
-                    .padding(.top, 5)
+                KeycapTextView(text: text, customSize: 18)
+                    .padding(.top, 0)
             } // VStack
         } // ZStack
         .frame(width: width, height: height)
@@ -56,9 +53,9 @@ struct DoubleKeycapView: Keycap {
 struct DoubleKeycapView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            DoubleKeycapView(text: "1", colorSet: .lightGrayKeycap)
-            DoubleKeycapView(text: "2", colorSet: .darkGrayKeycap)
-            DoubleKeycapView(text: "3", colorSet: .orangeKeycap)
+            DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .lightGrayKeycap)
+            DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .darkGrayKeycap)
+            DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .orangeKeycap)
         }
         .previewLayout(.sizeThatFits)
         .padding()

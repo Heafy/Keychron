@@ -34,9 +34,9 @@ struct TestView: View {
                     SingleThreeQuarterKeycapView(text: "tab", colorSet: .orangeKeycap)
                 }
                 HStack {
-                    DoubleKeycapView(text: "del", colorSet: .lightGrayKeycap)
-                    DoubleKeycapView(text: "del", colorSet: .darkGrayKeycap)
-                    DoubleKeycapView(text: "del", colorSet: .orangeKeycap)
+                    DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .lightGrayKeycap)
+                    DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .darkGrayKeycap)
+                    DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .orangeKeycap)
                 }
                 HStack {
                     DoubleQuarterKeycapView(text: "esc", colorSet: .lightGrayKeycap)

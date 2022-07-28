@@ -10,7 +10,6 @@ import SwiftUI
 struct SingleKeycapView: Keycap {
     
     var text: String
-    var alternativetext: String?
     var colorSet: ColorSet
     var width: CGFloat = Keycaps.Size.single
     
@@ -43,16 +42,16 @@ struct SingleKeycapView: Keycap {
             VStack(spacing: 0) {
                 Text(text)
                     .foregroundColor(.white)
-                    .fontWeight(.bold)
+                    .fontWeight(Keycaps.Fonts.weight)
                     .font(Keycaps.Fonts.mainFont)
-                    .padding(.top, 5)
+                    .padding(.top, 10)
                 
-                if let alternativetext = alternativetext {
-                    Text(alternativetext)
-                        .foregroundColor(.white)
-                        .fontWeight(.bold)
-                        .font(Keycaps.Fonts.altFont)
-                }
+                //                if let alternativetext = alternativetext {
+                //                    Text(alternativetext)
+                //                        .foregroundColor(.white)
+                //                        .fontWeight(.bold)
+                //                        .font(Keycaps.Fonts.altFont)
+                //                }
             } // VStack
         } // ZStack
         .frame(width: width, height: height)
@@ -63,7 +62,7 @@ struct SingleKeycapView: Keycap {
 struct SingleKeyCapView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            SingleKeycapView(text: "1", alternativetext: "B" ,colorSet: .lightGrayKeycap)
+            SingleKeycapView(text: "1", colorSet: .lightGrayKeycap)
             SingleKeycapView(text: "Q", colorSet: .lightGrayKeycap)
             SingleKeycapView(text: "W", colorSet: .darkGrayKeycap)
             SingleKeycapView(text: "E", colorSet: .orangeKeycap)

@@ -23,11 +23,17 @@ struct Keycaps {
     }
     
     struct Fonts {
-        private static let fontSize: CGFloat = Keycaps.Size.height * 0.30
-        private static let altFontSize: CGFloat = Keycaps.Size.height * 0.15
+        private static let fontSize: CGFloat = Keycaps.Size.height * 0.18
         
         static let mainFont: Font = .system(size: fontSize)
-        static let altFont: Font = .system(size: altFontSize)
+        static let weight: Font.Weight = .regular
+    }
+    
+    enum Unicode: String {
+        case option = "\u{2325}"
+        case command = "\u{2318}"
+        case enter = "\u{21B5}"
+        case delete = "\u{27F5}"
     }
     
     struct Dimensions {

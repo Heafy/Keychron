@@ -19,7 +19,7 @@ struct SecondRowKeycapsView: View {
                 SingleKeycapView(text: "R", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "T", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "Y", colorSet: .lightGrayKeycap)
-            } //: HStack
+            } // HStack
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "U", colorSet: .lightGrayKeycap)
@@ -29,7 +29,7 @@ struct SecondRowKeycapsView: View {
                 SingleKeycapView(text: "[{", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "]}", colorSet: .lightGrayKeycap)
                 SingleHalfKeycapView(text: "\\ |", colorSet: .darkGrayKeycap)
-            } //: HStack
+            } // HStack
             
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
@@ -37,8 +37,8 @@ struct SecondRowKeycapsView: View {
                 SingleKeycapView(text: "del", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "end", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "pgdn", colorSet: .lightGrayKeycap)
-            } //: HStack
-        } //: HStack
+            } // HStack
+        } // HStack
     }
 }
 

@@ -13,14 +13,14 @@ struct FifthRowKeycapsView: View {
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleQuarterKeycapView(text: "control", colorSet: .darkGrayKeycap)
-                SingleQuarterKeycapView(text: "option", colorSet: .darkGrayKeycap)
-                SingleQuarterKeycapView(text: "command", colorSet: .darkGrayKeycap)
+                SingleQuarterKeycapView(text: "option", symbol: .option ,colorSet: .darkGrayKeycap)
+                SingleQuarterKeycapView(text: "command", symbol: .command  ,colorSet: .darkGrayKeycap)
                 SpacebarKeycapView()
-                SingleQuarterKeycapView(text: "J", colorSet: .darkGrayKeycap)
+                SingleQuarterKeycapView(symbol: .command, colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "option", colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "fn", colorSet: .darkGrayKeycap)
                 SingleQuarterKeycapView(text: "control", colorSet: .darkGrayKeycap)
-            } //: HStack
+            } // HStack
             
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
@@ -28,8 +28,8 @@ struct FifthRowKeycapsView: View {
                 SingleKeycapView(text: "←", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "↓", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "→", colorSet: .lightGrayKeycap)
-            } //: HStack
-        } //: HStack
+            } // HStack
+        } // HStack
     }
 }
 

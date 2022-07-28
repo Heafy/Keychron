@@ -31,21 +31,14 @@ struct SpacebarKeycapView: Keycap {
                 .frame(width: height, height: 23)
                 .rotationEffect(.degrees(-90))
                 .offset(x: (width/2.1), y: (height/3))
-
+            
             Rectangle()
                 .fill(colorSet.mainColor)
                 .frame(width: width * 0.90, height: height * 0.75)
                 .cornerRadius(4)
                 .padding(5)
             
-            VStack(spacing: 0) {
-                Text("_____")
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .font(Keycaps.Fonts.mainFont)
-//                    .padding(.top, 5)
-            } // VStack
-            
+            KeycapTextView(text: "_____")            
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)

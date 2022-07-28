@@ -18,7 +18,7 @@ struct FourthRowKeycapsView: View {
                 SingleKeycapView(text: "V", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "B", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "N", colorSet: .lightGrayKeycap)
-            } //: HStack
+            } // HStack
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "M", colorSet: .lightGrayKeycap)
@@ -26,7 +26,7 @@ struct FourthRowKeycapsView: View {
                 SingleKeycapView(text: ". >", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "/ ?", colorSet: .lightGrayKeycap)
                 DoubleThreeQuarterKeycapView(text: "shift", colorSet: .darkGrayKeycap)
-            } //: HStack
+            } // HStack
             
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
@@ -34,8 +34,8 @@ struct FourthRowKeycapsView: View {
                 Spacer().frame(width: Keycaps.Size.single)
                 SingleKeycapView(text: "↑", colorSet: .lightGrayKeycap)
                 Spacer().frame(width: Keycaps.Size.single)
-            } //: HStack
-        } //: HStack
+            } // HStack
+        } // HStack
     }
 }
 

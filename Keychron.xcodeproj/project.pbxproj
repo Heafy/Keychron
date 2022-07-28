@@ -28,6 +28,7 @@
 		2DD27BFA2891CE5200177AED /* ThirdRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */; };
 		2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */; };
 		2DD27BFE2891D1B300177AED /* FifthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */; };
+		2DD346F728932516008EE636 /* KeycapTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346F628932516008EE636 /* KeycapTextView.swift */; };
 		2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRowKeycapsView.swift; sourceTree = "<group>"; };
 		2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthRowKeycapsView.swift; sourceTree = "<group>"; };
 		2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthRowKeycapsView.swift; sourceTree = "<group>"; };
+		2DD346F628932516008EE636 /* KeycapTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeycapTextView.swift; sourceTree = "<group>"; };
 		2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowKeycapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
 			isa = PBXGroup;
 			children = (
+				2DD346F828935298008EE636 /* TextView */,
 				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
 				2D8F3F2D288B728F00EBAD5C /* Double */,
 				2D8F3F2C288B723400EBAD5C /* Single */,
@@ -151,6 +154,14 @@
 				2DCC72F12859071900AB71E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DD346F828935298008EE636 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				2DD346F628932516008EE636 /* KeycapTextView.swift */,
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
 				2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */,
 				2DD27BF62891C7D800177AED /* FirstRowKeycapsView.swift in Sources */,
+				2DD346F728932516008EE636 /* KeycapTextView.swift in Sources */,
 				2DD27BFA2891CE5200177AED /* ThirdRowKeycapsView.swift in Sources */,
 				2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */,
 				2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */,

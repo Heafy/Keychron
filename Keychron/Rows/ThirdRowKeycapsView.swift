@@ -19,7 +19,7 @@ struct ThirdRowKeycapsView: View {
                 SingleKeycapView(text: "F", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "G", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "H", colorSet: .lightGrayKeycap)
-            } //: HStack
+            } // HStack
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "J", colorSet: .lightGrayKeycap)
@@ -28,8 +28,8 @@ struct ThirdRowKeycapsView: View {
                 SingleKeycapView(text: "; :", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "' \"", colorSet: .lightGrayKeycap)
                 DoubleQuarterKeycapView(text: "↵", colorSet: .darkGrayKeycap)
-            } //: HStack
-        }  //: HStack
+            } // HStack
+        }  // HStack
     }
 }
 

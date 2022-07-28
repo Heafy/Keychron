@@ -25,7 +25,7 @@ struct TopRowKeycapView: View {
                 SingleKeycapView(text: "F3", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "F4", colorSet: .lightGrayKeycap)
                 
-            } //: HStack
+            } // HStack
             
             Spacer().frame(width: secondSpacer)
             
@@ -35,7 +35,7 @@ struct TopRowKeycapView: View {
                 SingleKeycapView(text: "F7", colorSet: .darkGrayKeycap)
                 SingleKeycapView(text: "F8", colorSet: .darkGrayKeycap)
                 
-            } //: HStack
+            } // HStack
             
             Spacer().frame(width: secondSpacer)
             
@@ -45,7 +45,7 @@ struct TopRowKeycapView: View {
                 SingleKeycapView(text: "F11", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "F12", colorSet: .lightGrayKeycap)
                 
-            } //: HStack
+            } // HStack
             
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
@@ -53,8 +53,8 @@ struct TopRowKeycapView: View {
                 SingleKeycapView(text: "a", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "a", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "a", colorSet: .lightGrayKeycap)
-            } //: HStack
-        } //: HStack
+            } // HStack
+        } // HStack
     }
 }
 

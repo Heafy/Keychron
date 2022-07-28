@@ -20,33 +20,27 @@ struct SingleThreeQuarterKeycapView: Keycap {
                 .fill(colorSet.topBottomColor)
                 .frame(width: width, height: height)
                 .cornerRadius(10)
-
-                Trapezoid(percent: 5, leftOffSet: 13, rightOffset: 50)
-                    .fill(colorSet.leftColor)
-                    .frame(width: width, height: height * 0.40)
-                    .rotationEffect(.degrees(90))
-                    .offset(x: -(width * 0.45), y: (height * 0.5))
-
+            
+            Trapezoid(percent: 5, leftOffSet: 13, rightOffset: 50)
+                .fill(colorSet.leftColor)
+                .frame(width: width, height: height * 0.40)
+                .rotationEffect(.degrees(90))
+                .offset(x: -(width * 0.45), y: (height * 0.5))
+            
             Trapezoid(percent: 5, leftOffSet: 50, rightOffset: 13)
                 .fill(colorSet.rightColor)
                 .frame(width: width, height: height * 0.40)
                 .rotationEffect(.degrees(-90))
                 .offset(x: (width * 0.45), y: (height * 0.5))
-
+            
             Rectangle()
                 .fill(colorSet.mainColor)
                 .frame(width: width * 0.75, height: height * 0.75)
                 .cornerRadius(4)
                 .padding(5)
-
-            VStack(spacing: 2) {
-                Text(text)
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .font(Keycaps.Fonts.mainFont)
-                    .padding(.top, 5)
-
-            } // VStack
+            
+            KeycapTextView(text: text)
+                .padding(.top, 10)
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)

@@ -26,26 +26,21 @@ struct DoubleThreeQuarterKeycapView: Keycap {
                 .frame(width: height * 1.1, height: 25)
                 .rotationEffect(.degrees(90))
                 .offset(x: -(width/2.2), y: (height/3))
-    
+            
             Trapezoid(percent: 15, leftOffSet: 7, rightOffset: -4)
                 .fill(colorSet.leftColor)
                 .frame(width: height * 1.1, height: 25)
                 .rotationEffect(.degrees(-90))
                 .offset(x: (width/2.2), y: (height/3))
-
+            
             Rectangle()
                 .fill(colorSet.mainColor)
                 .frame(width: width * 0.80, height: height * 0.75)
                 .cornerRadius(4)
                 .padding(5)
-
-            VStack(spacing: 0) {
-                Text(text)
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .font(Keycaps.Fonts.mainFont)
-                    .padding(.top, 5)
-            } // VStack
+            
+            KeycapTextView(text: text)
+                .padding(.top, 10)
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)

@@ -9,9 +9,16 @@ import SwiftUI
 
 struct DoubleQuarterKeycapView: Keycap {
     
-    var text: String
+    var text: String?
+    var symbol: Keycaps.Unicode?
     var colorSet: ColorSet
     var width: CGFloat = Keycaps.Size.doubleQuarter
+    
+    init(text: String? = nil, symbol: Keycaps.Unicode? = nil, colorSet: ColorSet) {
+        self.text = text
+        self.symbol = symbol
+        self.colorSet = colorSet
+    }
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -38,14 +45,16 @@ struct DoubleQuarterKeycapView: Keycap {
                 .frame(width: width * 0.80, height: height * 0.75)
                 .cornerRadius(4)
                 .padding(5)
-
-            VStack(spacing: 0) {
-                Text(text)
-                    .foregroundColor(.white)
-                    .fontWeight(.bold)
-                    .font(Keycaps.Fonts.mainFont)
-                    .padding(.top, 5)
-            } // VStack
+            
+            if let text = text {
+                KeycapTextView(text: text)
+                    .padding(.top, 10)
+            } else if let symbol = symbol {
+                KeycapTextView(text: symbol.rawValue, customSize: 18)
+                    .padding(.top, 10)
+            }
+            
+            
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)
