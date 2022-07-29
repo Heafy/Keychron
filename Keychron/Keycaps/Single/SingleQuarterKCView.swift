@@ -1,5 +1,5 @@
 //
-//  SingleQuarterKeycapView.swift
+//  SingleQuarterKCView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 16/06/22.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct SingleQuarterKeycapView: Keycap {
+struct SingleQuarterKCView: Keycap {
     
     var text: String?
-    var symbol: Keycaps.Unicode?
+    var symbol: Constants.Unicode?
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.singleQuarter
+    var width: CGFloat = Constants.Size.singleQuarter
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -42,15 +42,15 @@ struct SingleQuarterKeycapView: Keycap {
             
             VStack(spacing: 5) {
                 if let text = text {
-                    KeycapTextView(text: text)
+                    KCTextView(text: text)
                         .padding(.top, 10)
                 }
                 
                 if let symbol = symbol {
                     if let _ = text {
-                        KeycapTextView(text: symbol.rawValue)
+                        KCTextView(text: symbol.rawValue)
                     } else {
-                        KeycapTextView(text: symbol.rawValue)
+                        KCTextView(text: symbol.rawValue)
                             .padding(.top, 10)
                     }
                     
@@ -62,12 +62,12 @@ struct SingleQuarterKeycapView: Keycap {
     }
 }
 
-struct SingleQuarterKeycapView_Previews: PreviewProvider {
+struct SingleQuarterKCView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            SingleQuarterKeycapView(text: "control" ,colorSet: .darkGrayKeycap)
-            SingleQuarterKeycapView(text: "option", symbol: .option ,colorSet: .darkGrayKeycap)
-            SingleQuarterKeycapView(symbol: .command, colorSet: .darkGrayKeycap)
+            SingleQuarterKCView(text: "control" ,colorSet: .darkGrayKC)
+            SingleQuarterKCView(text: "option", symbol: .option ,colorSet: .darkGrayKC)
+            SingleQuarterKCView(symbol: .command, colorSet: .darkGrayKC)
         }
         .previewLayout(.sizeThatFits)
         .padding()

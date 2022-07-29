@@ -16,6 +16,6 @@ protocol Keycap: View {
 
 extension Keycap {
     
-    var height: CGFloat { return Keycaps.Size.height }
+    var height: CGFloat { return Constants.Size.height }
     
 }

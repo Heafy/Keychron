@@ -1,5 +1,5 @@
 //
-//  DoubleThreeQuarterKeycapView.swift
+//  DoubleThreeQuarterKCView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 22/07/22.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct DoubleThreeQuarterKeycapView: Keycap {
+struct DoubleThreeQuarterKCView: Keycap {
     
     var text: String
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.doubleThreeQuarter
+    var width: CGFloat = Constants.Size.doubleThreeQuarter
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -39,19 +39,19 @@ struct DoubleThreeQuarterKeycapView: Keycap {
                 .cornerRadius(4)
                 .padding(5)
             
-            KeycapTextView(text: text)
+            KCTextView(text: text)
                 .padding(.top, 10)
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)
     }
 }
-struct DoubleThreeQuarterKeycapView_Previews: PreviewProvider {
+struct DoubleThreeQuarterKCView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            DoubleThreeQuarterKeycapView(text: "1", colorSet: .lightGrayKeycap)
-            DoubleThreeQuarterKeycapView(text: "2", colorSet: .darkGrayKeycap)
-            DoubleThreeQuarterKeycapView(text: "3", colorSet: .orangeKeycap)
+            DoubleThreeQuarterKCView(text: "1", colorSet: .lightGrayKC)
+            DoubleThreeQuarterKCView(text: "2", colorSet: .darkGrayKC)
+            DoubleThreeQuarterKCView(text: "3", colorSet: .orangeKC)
         }
         .previewLayout(.sizeThatFits)
         .padding()

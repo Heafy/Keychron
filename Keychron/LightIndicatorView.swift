@@ -26,21 +26,21 @@ enum LightIndicator {
 struct LightIndicatorView: View {
     
     var option: LightIndicator
-    var color: Color = ColorSet.lightGrayKeycap.mainColor
-    var width: CGFloat = Keycaps.Size.single
+    var color: Color = ColorSet.lightGrayKC.mainColor
+    var width: CGFloat = Constants.Size.single
     
     var body: some View {
         VStack(spacing: 10) {
             
             Capsule()
-                .fill(Bool.random() ? option.light : ColorSet.darkGrayKeycap.leftColor)
+                .fill(Bool.random() ? option.light : ColorSet.darkGrayKC.leftColor)
                 .frame(width: 8, height: 15)
             
             if option == .caps {
                 Text("A")
                     .foregroundColor(color)
-                    .fontWeight(Keycaps.Fonts.weight)
-                    .font(Keycaps.Fonts.mainFont)
+                    .fontWeight(Constants.Fonts.weight)
+                    .font(Constants.Fonts.mainFont)
                     .frame(width: 10, height: 10)
                     .padding(1)
                     .border(color, width: 1)

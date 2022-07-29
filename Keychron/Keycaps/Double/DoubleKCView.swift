@@ -1,5 +1,5 @@
 //
-//  DoubleKeycapView.swift
+//  DoubleKCView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 22/07/22.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct DoubleKeycapView: Keycap {
+struct DoubleKCView: Keycap {
     
     var text: String
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.double
+    var width: CGFloat = Constants.Size.double
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -40,7 +40,7 @@ struct DoubleKeycapView: Keycap {
                 .padding(5)
             
             VStack(spacing: 0) {
-                KeycapTextView(text: text, customSize: 18)
+                KCTextView(text: text, customSize: 18)
                     .padding(.top, 0)
             } // VStack
         } // ZStack
@@ -50,12 +50,12 @@ struct DoubleKeycapView: Keycap {
 }
 
 
-struct DoubleKeycapView_Previews: PreviewProvider {
+struct DoubleKCView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .lightGrayKeycap)
-            DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .darkGrayKeycap)
-            DoubleKeycapView(text: Keycaps.Unicode.delete.rawValue, colorSet: .orangeKeycap)
+            DoubleKCView(text: Constants.Unicode.delete.rawValue, colorSet: .lightGrayKC)
+            DoubleKCView(text: Constants.Unicode.delete.rawValue, colorSet: .darkGrayKC)
+            DoubleKCView(text: Constants.Unicode.delete.rawValue, colorSet: .orangeKC)
         }
         .previewLayout(.sizeThatFits)
         .padding()

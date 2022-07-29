@@ -1,5 +1,5 @@
 //
-//  SingleKeycapBackgroundView.swift
+//  SingleKCBackgroundView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 28/07/22.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct SingleKeycapBackgroundView: Keycap {
+struct SingleKCBackgroundView: Keycap {
     
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.single
+    var width: CGFloat = Constants.Size.single
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -44,12 +44,12 @@ struct SingleKeycapBackgroundView: Keycap {
     }
 }
 
-struct SingleKeycapBackgroundView_Previews: PreviewProvider {
+struct SingleKCBackgroundView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
-            SingleKeycapBackgroundView(colorSet: .lightGrayKeycap)
-            SingleKeycapBackgroundView(colorSet: .darkGrayKeycap)
-            SingleKeycapBackgroundView(colorSet: .orangeKeycap)
+            SingleKCBackgroundView(colorSet: .lightGrayKC)
+            SingleKCBackgroundView(colorSet: .darkGrayKC)
+            SingleKCBackgroundView(colorSet: .orangeKC)
         } // VStack
         .previewLayout(.sizeThatFits)
         .padding()

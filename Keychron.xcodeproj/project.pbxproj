@@ -8,42 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		2D455E862894835C00923AED /* LightIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D455E852894835C00923AED /* LightIndicatorView.swift */; };
-		2D62462C288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */; };
-		2D62462E288B84BA00473B79 /* SpacebarKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */; };
+		2D455E8A289497AD00923AED /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D455E89289497AD00923AED /* ColorSet.swift */; };
+		2D62462C288B797D00473B79 /* DoubleThreeQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462B288B797D00473B79 /* DoubleThreeQuarterKCView.swift */; };
+		2D62462E288B84BA00473B79 /* SpacebarKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462D288B84BA00473B79 /* SpacebarKCView.swift */; };
 		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
-		2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */; };
-		2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */; };
-		2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F3F2A288B655900EBAD5C /* DoubleKeycapView.swift */; };
-		2D8F3F2F288B735300EBAD5C /* DoubleQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F3F2E288B735300EBAD5C /* DoubleQuarterKeycapView.swift */; };
-		2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */; };
+		2D7E9229285BE0BD006F0D22 /* SingleQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */; };
+		2D7E922B285C0AEE006F0D22 /* SingleHalfKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */; };
+		2D8F3F2B288B655900EBAD5C /* DoubleKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F3F2A288B655900EBAD5C /* DoubleKCView.swift */; };
+		2D8F3F2F288B735300EBAD5C /* DoubleQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F3F2E288B735300EBAD5C /* DoubleQuarterKCView.swift */; };
+		2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKCView.swift */; };
 		2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72EA2859071700AB71E1 /* KeychronApp.swift */; };
 		2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72EC2859071700AB71E1 /* ContentView.swift */; };
 		2DCC72EF2859071900AB71E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC72EE2859071900AB71E1 /* Assets.xcassets */; };
 		2DCC72F22859071900AB71E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC72F12859071900AB71E1 /* Preview Assets.xcassets */; };
 		2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72F82859193F00AB71E1 /* Trapezoid.swift */; };
 		2DCC72FB28593C9200AB71E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FA28593C9200AB71E1 /* Constants.swift */; };
-		2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */; };
-		2DD27BF62891C7D800177AED /* FirstRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */; };
-		2DD27BF82891CBE200177AED /* SecondRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */; };
-		2DD27BFA2891CE5200177AED /* ThirdRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */; };
-		2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */; };
-		2DD27BFE2891D1B300177AED /* FifthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */; };
-		2DD346F728932516008EE636 /* KeycapTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346F628932516008EE636 /* KeycapTextView.swift */; };
-		2DD346FE28936CC9008EE636 /* SingleKeycapBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346FD28936CC9008EE636 /* SingleKeycapBackgroundView.swift */; };
-		2DD3470028937804008EE636 /* SingleKeycapAlternativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346FF28937804008EE636 /* SingleKeycapAlternativeView.swift */; };
-		2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */; };
+		2DCC72FD285940D300AB71E1 /* SingleKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC72FC285940D300AB71E1 /* SingleKCView.swift */; };
+		2DD27BF62891C7D800177AED /* SecondRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF52891C7D800177AED /* SecondRowView.swift */; };
+		2DD27BF82891CBE200177AED /* ThirdRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF72891CBE200177AED /* ThirdRowView.swift */; };
+		2DD27BFA2891CE5200177AED /* FourthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BF92891CE5200177AED /* FourthRowView.swift */; };
+		2DD27BFC2891D0E900177AED /* FifthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFB2891D0E900177AED /* FifthRowView.swift */; };
+		2DD27BFE2891D1B300177AED /* SixthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFD2891D1B300177AED /* SixthRowView.swift */; };
+		2DD346F728932516008EE636 /* KCTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346F628932516008EE636 /* KCTextView.swift */; };
+		2DD346FE28936CC9008EE636 /* SingleKCBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346FD28936CC9008EE636 /* SingleKCBackgroundView.swift */; };
+		2DD3470028937804008EE636 /* SingleKCAlternativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346FF28937804008EE636 /* SingleKCAlternativeView.swift */; };
+		2DF0F3B02891E43E00C34DBF /* FirstRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0F3AF2891E43E00C34DBF /* FirstRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D455E852894835C00923AED /* LightIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightIndicatorView.swift; sourceTree = "<group>"; };
-		2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThreeQuarterKeycapView.swift; sourceTree = "<group>"; };
-		2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacebarKeycapView.swift; sourceTree = "<group>"; };
+		2D455E89289497AD00923AED /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		2D62462B288B797D00473B79 /* DoubleThreeQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThreeQuarterKCView.swift; sourceTree = "<group>"; };
+		2D62462D288B84BA00473B79 /* SpacebarKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacebarKCView.swift; sourceTree = "<group>"; };
 		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
-		2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKeycapView.swift; sourceTree = "<group>"; };
-		2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHalfKeycapView.swift; sourceTree = "<group>"; };
-		2D8F3F2A288B655900EBAD5C /* DoubleKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleKeycapView.swift; sourceTree = "<group>"; };
-		2D8F3F2E288B735300EBAD5C /* DoubleQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuarterKeycapView.swift; sourceTree = "<group>"; };
-		2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThreeQuarterKeycapView.swift; sourceTree = "<group>"; };
+		2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKCView.swift; sourceTree = "<group>"; };
+		2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHalfKCView.swift; sourceTree = "<group>"; };
+		2D8F3F2A288B655900EBAD5C /* DoubleKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleKCView.swift; sourceTree = "<group>"; };
+		2D8F3F2E288B735300EBAD5C /* DoubleQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleQuarterKCView.swift; sourceTree = "<group>"; };
+		2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThreeQuarterKCView.swift; sourceTree = "<group>"; };
 		2DCC72E72859071700AB71E1 /* Keychron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keychron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCC72EA2859071700AB71E1 /* KeychronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychronApp.swift; sourceTree = "<group>"; };
 		2DCC72EC2859071700AB71E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,16 +53,16 @@
 		2DCC72F12859071900AB71E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DCC72F82859193F00AB71E1 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 		2DCC72FA28593C9200AB71E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapView.swift; sourceTree = "<group>"; };
-		2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowKeycapsView.swift; sourceTree = "<group>"; };
-		2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRowKeycapsView.swift; sourceTree = "<group>"; };
-		2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRowKeycapsView.swift; sourceTree = "<group>"; };
-		2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthRowKeycapsView.swift; sourceTree = "<group>"; };
-		2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthRowKeycapsView.swift; sourceTree = "<group>"; };
-		2DD346F628932516008EE636 /* KeycapTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeycapTextView.swift; sourceTree = "<group>"; };
-		2DD346FD28936CC9008EE636 /* SingleKeycapBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapBackgroundView.swift; sourceTree = "<group>"; };
-		2DD346FF28937804008EE636 /* SingleKeycapAlternativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapAlternativeView.swift; sourceTree = "<group>"; };
-		2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowKeycapView.swift; sourceTree = "<group>"; };
+		2DCC72FC285940D300AB71E1 /* SingleKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKCView.swift; sourceTree = "<group>"; };
+		2DD27BF52891C7D800177AED /* SecondRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRowView.swift; sourceTree = "<group>"; };
+		2DD27BF72891CBE200177AED /* ThirdRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRowView.swift; sourceTree = "<group>"; };
+		2DD27BF92891CE5200177AED /* FourthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthRowView.swift; sourceTree = "<group>"; };
+		2DD27BFB2891D0E900177AED /* FifthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthRowView.swift; sourceTree = "<group>"; };
+		2DD27BFD2891D1B300177AED /* SixthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthRowView.swift; sourceTree = "<group>"; };
+		2DD346F628932516008EE636 /* KCTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTextView.swift; sourceTree = "<group>"; };
+		2DD346FD28936CC9008EE636 /* SingleKCBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKCBackgroundView.swift; sourceTree = "<group>"; };
+		2DD346FF28937804008EE636 /* SingleKCAlternativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKCAlternativeView.swift; sourceTree = "<group>"; };
+		2DF0F3AF2891E43E00C34DBF /* FirstRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,24 +79,51 @@
 		2D1FC1732891F44700BF86EE /* Rows */ = {
 			isa = PBXGroup;
 			children = (
-				2DD27BF52891C7D800177AED /* FirstRowKeycapsView.swift */,
-				2DD27BF72891CBE200177AED /* SecondRowKeycapsView.swift */,
-				2DD27BF92891CE5200177AED /* ThirdRowKeycapsView.swift */,
-				2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */,
-				2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */,
-				2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */,
+				2DD27BF52891C7D800177AED /* SecondRowView.swift */,
+				2DD27BF72891CBE200177AED /* ThirdRowView.swift */,
+				2DD27BF92891CE5200177AED /* FourthRowView.swift */,
+				2DD27BFB2891D0E900177AED /* FifthRowView.swift */,
+				2DD27BFD2891D1B300177AED /* SixthRowView.swift */,
+				2DF0F3AF2891E43E00C34DBF /* FirstRowView.swift */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		2D455E872894969C00923AED /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC72F82859193F00AB71E1 /* Trapezoid.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		2D455E88289496AA00923AED /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
+				2D455E89289497AD00923AED /* ColorSet.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2D455E8B2894A07D00923AED /* SingleKC */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC72FC285940D300AB71E1 /* SingleKCView.swift */,
+				2DD346FD28936CC9008EE636 /* SingleKCBackgroundView.swift */,
+				2DD346FF28937804008EE636 /* SingleKCAlternativeView.swift */,
+			);
+			path = SingleKC;
 			sourceTree = "<group>";
 		};
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
 			isa = PBXGroup;
 			children = (
-				2DD346F828935298008EE636 /* TextView */,
 				2D7E9226285BBFDF006F0D22 /* Keycap.swift */,
+				2D62462D288B84BA00473B79 /* SpacebarKCView.swift */,
 				2D8F3F2D288B728F00EBAD5C /* Double */,
 				2D8F3F2C288B723400EBAD5C /* Single */,
-				2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */,
+				2DD346F828935298008EE636 /* TextView */,
 			);
 			path = Keycaps;
 			sourceTree = "<group>";
@@ -102,12 +131,10 @@
 		2D8F3F2C288B723400EBAD5C /* Single */ = {
 			isa = PBXGroup;
 			children = (
-				2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift */,
-				2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */,
-				2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */,
-				2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */,
-				2DD346FD28936CC9008EE636 /* SingleKeycapBackgroundView.swift */,
-				2DD346FF28937804008EE636 /* SingleKeycapAlternativeView.swift */,
+				2D455E8B2894A07D00923AED /* SingleKC */,
+				2DA6194C286E7D7B00C2AF84 /* SingleThreeQuarterKCView.swift */,
+				2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */,
+				2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */,
 			);
 			path = Single;
 			sourceTree = "<group>";
@@ -115,9 +142,9 @@
 		2D8F3F2D288B728F00EBAD5C /* Double */ = {
 			isa = PBXGroup;
 			children = (
-				2D8F3F2A288B655900EBAD5C /* DoubleKeycapView.swift */,
-				2D8F3F2E288B735300EBAD5C /* DoubleQuarterKeycapView.swift */,
-				2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */,
+				2D8F3F2A288B655900EBAD5C /* DoubleKCView.swift */,
+				2D8F3F2E288B735300EBAD5C /* DoubleQuarterKCView.swift */,
+				2D62462B288B797D00473B79 /* DoubleThreeQuarterKCView.swift */,
 			);
 			path = Double;
 			sourceTree = "<group>";
@@ -141,14 +168,14 @@
 		2DCC72E92859071700AB71E1 /* Keychron */ = {
 			isa = PBXGroup;
 			children = (
+				2D455E88289496AA00923AED /* Constants */,
+				2D455E872894969C00923AED /* Shapes */,
 				2D1FC1732891F44700BF86EE /* Rows */,
 				2D7E9225285BBFCA006F0D22 /* Keycaps */,
 				2DCC72EA2859071700AB71E1 /* KeychronApp.swift */,
 				2DCC72EC2859071700AB71E1 /* ContentView.swift */,
 				2DCC72EE2859071900AB71E1 /* Assets.xcassets */,
 				2DCC72F02859071900AB71E1 /* Preview Content */,
-				2DCC72F82859193F00AB71E1 /* Trapezoid.swift */,
-				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
 				2D455E852894835C00923AED /* LightIndicatorView.swift */,
 			);
 			path = Keychron;
@@ -165,7 +192,7 @@
 		2DD346F828935298008EE636 /* TextView */ = {
 			isa = PBXGroup;
 			children = (
-				2DD346F628932516008EE636 /* KeycapTextView.swift */,
+				2DD346F628932516008EE636 /* KCTextView.swift */,
 			);
 			path = TextView;
 			sourceTree = "<group>";
@@ -240,28 +267,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D62462C288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift in Sources */,
-				2D7E9229285BE0BD006F0D22 /* SingleQuarterKeycapView.swift in Sources */,
-				2D62462E288B84BA00473B79 /* SpacebarKeycapView.swift in Sources */,
-				2DD27BF82891CBE200177AED /* SecondRowKeycapsView.swift in Sources */,
-				2DD27BFE2891D1B300177AED /* FifthRowKeycapsView.swift in Sources */,
+				2D62462C288B797D00473B79 /* DoubleThreeQuarterKCView.swift in Sources */,
+				2D7E9229285BE0BD006F0D22 /* SingleQuarterKCView.swift in Sources */,
+				2D62462E288B84BA00473B79 /* SpacebarKCView.swift in Sources */,
+				2DD27BF82891CBE200177AED /* ThirdRowView.swift in Sources */,
+				2D455E8A289497AD00923AED /* ColorSet.swift in Sources */,
+				2DD27BFE2891D1B300177AED /* SixthRowView.swift in Sources */,
 				2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */,
-				2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */,
-				2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */,
+				2D7E922B285C0AEE006F0D22 /* SingleHalfKCView.swift in Sources */,
+				2DF0F3B02891E43E00C34DBF /* FirstRowView.swift in Sources */,
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
-				2DD3470028937804008EE636 /* SingleKeycapAlternativeView.swift in Sources */,
-				2DD346FE28936CC9008EE636 /* SingleKeycapBackgroundView.swift in Sources */,
-				2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */,
-				2DD27BF62891C7D800177AED /* FirstRowKeycapsView.swift in Sources */,
-				2DD346F728932516008EE636 /* KeycapTextView.swift in Sources */,
-				2DD27BFA2891CE5200177AED /* ThirdRowKeycapsView.swift in Sources */,
+				2DD3470028937804008EE636 /* SingleKCAlternativeView.swift in Sources */,
+				2DD346FE28936CC9008EE636 /* SingleKCBackgroundView.swift in Sources */,
+				2D8F3F2B288B655900EBAD5C /* DoubleKCView.swift in Sources */,
+				2DD27BF62891C7D800177AED /* SecondRowView.swift in Sources */,
+				2DD346F728932516008EE636 /* KCTextView.swift in Sources */,
+				2DD27BFA2891CE5200177AED /* FourthRowView.swift in Sources */,
 				2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */,
-				2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */,
-				2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */,
+				2DD27BFC2891D0E900177AED /* FifthRowView.swift in Sources */,
+				2DCC72FD285940D300AB71E1 /* SingleKCView.swift in Sources */,
 				2D455E862894835C00923AED /* LightIndicatorView.swift in Sources */,
-				2D8F3F2F288B735300EBAD5C /* DoubleQuarterKeycapView.swift in Sources */,
+				2D8F3F2F288B735300EBAD5C /* DoubleQuarterKCView.swift in Sources */,
 				2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */,
-				2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift in Sources */,
+				2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKCView.swift in Sources */,
 				2DCC72FB28593C9200AB71E1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

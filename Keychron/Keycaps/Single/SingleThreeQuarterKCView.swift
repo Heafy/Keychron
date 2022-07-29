@@ -1,17 +1,17 @@
 //
-//  SingleHalfKeycapView.swift
+//  SingleThreeQuarterKCView.swift
 //  Keychron
 //
-//  Created by Jorge Martinez on 16/06/22.
+//  Created by Jorge Martinez on 30/06/22.
 //
 
 import SwiftUI
 
-struct SingleHalfKeycapView: Keycap {
+struct SingleThreeQuarterKCView: Keycap {
     
     var text: String
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.singleHalf
+    var width: CGFloat = Constants.Size.singleThreeQuarter
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -21,17 +21,17 @@ struct SingleHalfKeycapView: Keycap {
                 .frame(width: width, height: height)
                 .cornerRadius(10)
             
-            Trapezoid(percent: 20, leftOffSet: 3, rightOffset: 28)
+            Trapezoid(percent: 5, leftOffSet: 13, rightOffset: 50)
                 .fill(colorSet.leftColor)
-                .frame(width: width, height: height * 0.30)
+                .frame(width: width, height: height * 0.40)
                 .rotationEffect(.degrees(90))
-                .offset(x: -(width * 0.40), y: (height * 0.45))
+                .offset(x: -(width * 0.45), y: (height * 0.5))
             
-            Trapezoid(percent: 20, leftOffSet: 28, rightOffset: 3)
+            Trapezoid(percent: 5, leftOffSet: 50, rightOffset: 13)
                 .fill(colorSet.rightColor)
-                .frame(width: width, height: height * 0.30)
+                .frame(width: width, height: height * 0.40)
                 .rotationEffect(.degrees(-90))
-                .offset(x: (width * 0.40), y: (height * 0.45))
+                .offset(x: (width * 0.45), y: (height * 0.5))
             
             Rectangle()
                 .fill(colorSet.mainColor)
@@ -39,7 +39,7 @@ struct SingleHalfKeycapView: Keycap {
                 .cornerRadius(4)
                 .padding(5)
             
-            KeycapTextView(text: text)
+            KCTextView(text: text)
                 .padding(.top, 10)
         } // ZStack
         .frame(width: width, height: height)
@@ -47,10 +47,10 @@ struct SingleHalfKeycapView: Keycap {
     }
 }
 
-struct SingleHalfKeycapView_Previews: PreviewProvider {
+struct SingleThreeQuarterKCView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            SingleHalfKeycapView(text: "tab", colorSet: .orangeKeycap)
+            SingleThreeQuarterKCView(text: "tab", colorSet: .orangeKC)
         }
         .previewLayout(.sizeThatFits)
         .padding()

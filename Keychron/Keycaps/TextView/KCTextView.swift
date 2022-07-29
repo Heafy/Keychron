@@ -1,5 +1,5 @@
 //
-//  KeycapTextView.swift
+//  KCTextView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 28/07/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct KeycapTextView: View {
+struct KCTextView: View {
     
     var text: String
     var customSize: CGFloat?
@@ -21,19 +21,19 @@ struct KeycapTextView: View {
         if let customSize = customSize {
             Text(text)
                 .foregroundColor(.white)
-                .fontWeight(Keycaps.Fonts.weight)
+                .fontWeight(Constants.Fonts.weight)
                 .font(.system(size: customSize))
         } else {
             Text(text)
                 .foregroundColor(.white)
-                .fontWeight(Keycaps.Fonts.weight)
-                .font(Keycaps.Fonts.mainFont)
+                .fontWeight(Constants.Fonts.weight)
+                .font(Constants.Fonts.mainFont)
         }
     }
 }
 
-struct KeycapTextView_Previews: PreviewProvider {
+struct KCTextVieww_Previews: PreviewProvider {
     static var previews: some View {
-        KeycapTextView(text: "A")
+        KCTextView(text: "A")
     }
 }

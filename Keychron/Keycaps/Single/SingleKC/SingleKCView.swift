@@ -1,5 +1,5 @@
 //
-//  SingleKeycapView.swift
+//  SingleKCView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 14/06/22.
@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct SingleKeycapView: Keycap {
+struct SingleKCView: Keycap {
     
     var text: String
     var bluetoothEnabled: Bool = false
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.single
+    var width: CGFloat = Constants.Size.single
     
     var body: some View {
         ZStack(alignment: .top) {
             
-            SingleKeycapBackgroundView(colorSet: colorSet)
+            SingleKCBackgroundView(colorSet: colorSet)
             
             VStack(spacing: 0) {
-                KeycapTextView(text: text)
+                KCTextView(text: text)
                     .padding(.top, 10)
                 
                 if bluetoothEnabled {
@@ -31,7 +31,7 @@ struct SingleKeycapView: Keycap {
                         
                         Image("bluetooth")
                             .resizable()
-                            .frame(width: Keycaps.Fonts.fontSize, height: Keycaps.Fonts.fontSize)
+                            .frame(width: Constants.Fonts.fontSize, height: Constants.Fonts.fontSize)
                             .aspectRatio(contentMode: .fit)
                             .foregroundColor(.white)
                         
@@ -40,20 +40,19 @@ struct SingleKeycapView: Keycap {
                 }
                 
             } // VStack
-
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)
     }
 }
 
-struct SingleKeyCapView_Previews: PreviewProvider {
+struct SingleKCView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            SingleKeycapView(text: "1 !", bluetoothEnabled: true, colorSet: .lightGrayKeycap)
-            SingleKeycapView(text: "2 @",  bluetoothEnabled: true, colorSet: .lightGrayKeycap)
-            SingleKeycapView(text: "Q", colorSet: .darkGrayKeycap)
-            SingleKeycapView(text: "w", colorSet: .orangeKeycap)
+            SingleKCView(text: "1 !", bluetoothEnabled: true, colorSet: .lightGrayKC)
+            SingleKCView(text: "2 @",  bluetoothEnabled: true, colorSet: .lightGrayKC)
+            SingleKCView(text: "Q", colorSet: .darkGrayKC)
+            SingleKCView(text: "w", colorSet: .orangeKC)
         }
         .previewLayout(.sizeThatFits)
         .padding()

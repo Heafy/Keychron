@@ -1,5 +1,5 @@
 //
-//  DoubleQuarterKeycapView.swift
+//  DoubleQuarterKCView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 22/07/22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct DoubleQuarterKeycapView: Keycap {
+struct DoubleQuarterKCView: Keycap {
     
     var text: String?
-    var symbol: Keycaps.Unicode?
+    var symbol: Constants.Unicode?
     var colorSet: ColorSet
-    var width: CGFloat = Keycaps.Size.doubleQuarter
+    var width: CGFloat = Constants.Size.doubleQuarter
     
-    init(text: String? = nil, symbol: Keycaps.Unicode? = nil, colorSet: ColorSet) {
+    init(text: String? = nil, symbol: Constants.Unicode? = nil, colorSet: ColorSet) {
         self.text = text
         self.symbol = symbol
         self.colorSet = colorSet
@@ -47,10 +47,10 @@ struct DoubleQuarterKeycapView: Keycap {
                 .padding(5)
             
             if let text = text {
-                KeycapTextView(text: text)
+                KCTextView(text: text)
                     .padding(.top, 10)
             } else if let symbol = symbol {
-                KeycapTextView(text: symbol.rawValue, customSize: 18)
+                KCTextView(text: symbol.rawValue, customSize: 18)
                     .padding(.top, 10)
             }
             
@@ -61,12 +61,12 @@ struct DoubleQuarterKeycapView: Keycap {
     }
 }
 
-struct DoubleQuarterKeycapView_Previews: PreviewProvider {
+struct DoubleQuarterKCView_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 2) {
-            DoubleQuarterKeycapView(text: "1", colorSet: .lightGrayKeycap)
-            DoubleQuarterKeycapView(text: "2", colorSet: .darkGrayKeycap)
-            DoubleQuarterKeycapView(text: "3", colorSet: .orangeKeycap)
+            DoubleQuarterKCView(text: "1", colorSet: .lightGrayKC)
+            DoubleQuarterKCView(text: "2", colorSet: .darkGrayKC)
+            DoubleQuarterKCView(text: "3", colorSet: .orangeKC)
         }
         .previewLayout(.sizeThatFits)
         .padding()

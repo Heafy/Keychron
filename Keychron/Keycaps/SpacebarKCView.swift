@@ -1,5 +1,5 @@
 //
-//  SpacebarKeycapView.swift
+//  SpacebarKCView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 22/07/22.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct SpacebarKeycapView: Keycap {
+struct SpacebarKCView: Keycap {
     
-    var colorSet: ColorSet = .lightGrayKeycap
-    var width: CGFloat = Keycaps.Size.spacebar
+    var colorSet: ColorSet = .lightGrayKC
+    var width: CGFloat = Constants.Size.spacebar
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -38,16 +38,16 @@ struct SpacebarKeycapView: Keycap {
                 .cornerRadius(4)
                 .padding(5)
             
-            KeycapTextView(text: "_____")            
+            KCTextView(text: "_____")            
         } // ZStack
         .frame(width: width, height: height)
         .cornerRadius(10)
     }
 }
 
-struct SpacebarKeycapView_Previews: PreviewProvider {
+struct SpacebarKCView_Previews: PreviewProvider {
     static var previews: some View {
-        SpacebarKeycapView()
+        SpacebarKCView()
             .previewLayout(.sizeThatFits)
             .padding()
     }
