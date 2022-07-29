@@ -13,9 +13,9 @@ struct FirstRowKeycapsView: View {
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
                 SingleKeycapView(text: "` ~", colorSet: .darkGrayKeycap)
-                SingleKeycapView(text: "1 !", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "2 @", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "3 #", colorSet: .lightGrayKeycap)
+                SingleKeycapView(text: "1 !", bluetoothEnabled: true, colorSet: .lightGrayKeycap)
+                SingleKeycapView(text: "2 @", bluetoothEnabled: true, colorSet: .lightGrayKeycap)
+                SingleKeycapView(text: "3 #", bluetoothEnabled: true, colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "4 $", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "5 %", colorSet: .lightGrayKeycap)
                 SingleKeycapView(text: "6 ˆ", colorSet: .lightGrayKeycap)

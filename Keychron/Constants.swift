@@ -23,8 +23,7 @@ struct Keycaps {
     }
     
     struct Fonts {
-        private static let fontSize: CGFloat = Keycaps.Size.height * 0.18
-        
+        static let fontSize: CGFloat = Keycaps.Size.height * 0.18
         static let mainFont: Font = .system(size: fontSize)
         static let weight: Font.Weight = .regular
     }
