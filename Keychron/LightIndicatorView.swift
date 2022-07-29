@@ -33,7 +33,7 @@ struct LightIndicatorView: View {
         VStack(spacing: 10) {
             
             Capsule()
-                .fill(option.light)
+                .fill(Bool.random() ? option.light : ColorSet.darkGrayKeycap.leftColor)
                 .frame(width: 8, height: 15)
             
             if option == .caps {
@@ -55,7 +55,6 @@ struct LightIndicatorView: View {
             }
         } // VStack
         .frame(width: width, height: width)
-        .background(Color.black)
     }
 }
 

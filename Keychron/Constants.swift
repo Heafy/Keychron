@@ -10,7 +10,6 @@ import SwiftUI
 struct Keycaps {
     
     struct Size {
-        
         static let height: CGFloat = 60
         static let single: CGFloat = height
         static let singleQuarter: CGFloat = single * 1.25
@@ -59,8 +58,8 @@ struct Keycaps {
     }
     
     struct Colors {
-        static let background: Color = Color(.sRGB, red: 76/255, green: 76/255, blue: 76/255, opacity: 1.0)
-        static let border: Color = Color(.sRGB, red: 48/255, green: 46/255, blue: 47/255, opacity: 1.0)
+        static let background: Color = Color(.sRGB, red: 48/255, green: 48/255, blue: 48/255, opacity: 1.0)
+        static let border: Color = Color(.sRGB, red: 35/255, green: 35/255, blue: 35/255, opacity: 1.0)
     }
 }
 
