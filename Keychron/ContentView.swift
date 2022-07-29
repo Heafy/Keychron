@@ -18,7 +18,10 @@ struct ContentView: View {
             ThirdRowKeycapsView()
             FourthRowKeycapsView()
             FifthRowKeycapsView()
-        }
+        } // VStack
+        .padding(3)
+        .background(Keycaps.Colors.background)
+        .border(Keycaps.Colors.border, width: 4)
     }
 }
 

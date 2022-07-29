@@ -34,9 +34,9 @@ struct SecondRowKeycapsView: View {
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
-                SingleKeycapView(text: "del", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "end", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "pgdn", colorSet: .lightGrayKeycap)
+                SingleKeycapView(text: "del", colorSet: .darkGrayKeycap)
+                SingleKeycapView(text: "end", colorSet: .darkGrayKeycap)
+                SingleKeycapView(text: "pgdn", colorSet: .darkGrayKeycap)
             } // HStack
         } // HStack
     }

@@ -35,10 +35,32 @@ struct Keycaps {
         case delete = "\u{27F5}"
     }
     
+    enum Symbols: String {
+        case f1
+        case f2
+        case f3
+        case f4
+        case f5
+        case f7
+        case f8
+        case f9
+        case f10
+        case f11
+        case f12
+        case crop
+        case microphone
+        case bulb
+    }
+    
     struct Dimensions {
         static let verticalSpacing: CGFloat = 1
         static let horizontalSpacing: CGFloat = 0.5
         static let sectorSpacing: CGFloat = 15
+    }
+    
+    struct Colors {
+        static let background: Color = Color(.sRGB, red: 76/255, green: 76/255, blue: 76/255, opacity: 1.0)
+        static let border: Color = Color(.sRGB, red: 48/255, green: 46/255, blue: 47/255, opacity: 1.0)
     }
 }
 

@@ -20,39 +20,37 @@ struct TopRowKeycapView: View {
             Spacer().frame(width: firstSpacer)
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
-                SingleKeycapView(text: "F1", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "F2", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "F3", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "F4", colorSet: .lightGrayKeycap)
-                
+                SingleKeycapAlternativeView(text: "F1", symbol: .f1, colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F2", symbol: .f2, colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F3", symbol: .f3, colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F4", symbol: .f4, colorSet: .lightGrayKeycap)
             } // HStack
             
             Spacer().frame(width: secondSpacer)
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
-                SingleKeycapView(text: "F5", colorSet: .darkGrayKeycap)
-                SingleKeycapView(text: "F6", colorSet: .darkGrayKeycap)
-                SingleKeycapView(text: "F7", colorSet: .darkGrayKeycap)
-                SingleKeycapView(text: "F8", colorSet: .darkGrayKeycap)
-                
+                SingleKeycapAlternativeView(text: "F5", symbol: .f5, colorSet: .darkGrayKeycap)
+                SingleKeycapAlternativeView(text: "F6", symbol: .f5, colorSet: .darkGrayKeycap)
+                SingleKeycapAlternativeView(text: "F7", symbol: .f7, colorSet: .darkGrayKeycap)
+                SingleKeycapAlternativeView(text: "F8", symbol: .f8, colorSet: .darkGrayKeycap)
             } // HStack
             
             Spacer().frame(width: secondSpacer)
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
-                SingleKeycapView(text: "F9", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "F10", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "F11", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "F12", colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F9", symbol: .f9, colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F10", symbol: .f10, colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F11", symbol: .f11, colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(text: "F12", symbol: .f12, colorSet: .lightGrayKeycap)
                 
             } // HStack
             
             Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
             
             HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
-                SingleKeycapView(text: "a", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "a", colorSet: .lightGrayKeycap)
-                SingleKeycapView(text: "a", colorSet: .lightGrayKeycap)
+                SingleKeycapAlternativeView(symbol: .crop, colorSet: .darkGrayKeycap)
+                SingleKeycapAlternativeView(symbol: .microphone, colorSet: .darkGrayKeycap)
+                SingleKeycapAlternativeView(symbol: .bulb, colorSet: .darkGrayKeycap)
             } // HStack
         } // HStack
     }

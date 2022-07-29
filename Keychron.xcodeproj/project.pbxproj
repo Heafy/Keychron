@@ -29,6 +29,8 @@
 		2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */; };
 		2DD27BFE2891D1B300177AED /* FifthRowKeycapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */; };
 		2DD346F728932516008EE636 /* KeycapTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346F628932516008EE636 /* KeycapTextView.swift */; };
+		2DD346FE28936CC9008EE636 /* SingleKeycapBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346FD28936CC9008EE636 /* SingleKeycapBackgroundView.swift */; };
+		2DD3470028937804008EE636 /* SingleKeycapAlternativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD346FF28937804008EE636 /* SingleKeycapAlternativeView.swift */; };
 		2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		2DD27BFB2891D0E900177AED /* FourthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthRowKeycapsView.swift; sourceTree = "<group>"; };
 		2DD27BFD2891D1B300177AED /* FifthRowKeycapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthRowKeycapsView.swift; sourceTree = "<group>"; };
 		2DD346F628932516008EE636 /* KeycapTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeycapTextView.swift; sourceTree = "<group>"; };
+		2DD346FD28936CC9008EE636 /* SingleKeycapBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapBackgroundView.swift; sourceTree = "<group>"; };
+		2DD346FF28937804008EE636 /* SingleKeycapAlternativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleKeycapAlternativeView.swift; sourceTree = "<group>"; };
 		2DF0F3AF2891E43E00C34DBF /* TopRowKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowKeycapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,8 @@
 				2D7E922A285C0AEE006F0D22 /* SingleHalfKeycapView.swift */,
 				2D7E9228285BE0BD006F0D22 /* SingleQuarterKeycapView.swift */,
 				2DCC72FC285940D300AB71E1 /* SingleKeycapView.swift */,
+				2DD346FD28936CC9008EE636 /* SingleKeycapBackgroundView.swift */,
+				2DD346FF28937804008EE636 /* SingleKeycapAlternativeView.swift */,
 			);
 			path = Single;
 			sourceTree = "<group>";
@@ -244,6 +250,8 @@
 				2D7E922B285C0AEE006F0D22 /* SingleHalfKeycapView.swift in Sources */,
 				2DF0F3B02891E43E00C34DBF /* TopRowKeycapView.swift in Sources */,
 				2DCC72ED2859071700AB71E1 /* ContentView.swift in Sources */,
+				2DD3470028937804008EE636 /* SingleKeycapAlternativeView.swift in Sources */,
+				2DD346FE28936CC9008EE636 /* SingleKeycapBackgroundView.swift in Sources */,
 				2D8F3F2B288B655900EBAD5C /* DoubleKeycapView.swift in Sources */,
 				2DD27BF62891C7D800177AED /* FirstRowKeycapsView.swift in Sources */,
 				2DD346F728932516008EE636 /* KeycapTextView.swift in Sources */,
