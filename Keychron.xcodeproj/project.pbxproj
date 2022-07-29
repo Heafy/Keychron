@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D455E862894835C00923AED /* LightIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D455E852894835C00923AED /* LightIndicatorView.swift */; };
 		2D62462C288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */; };
 		2D62462E288B84BA00473B79 /* SpacebarKeycapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */; };
 		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D455E852894835C00923AED /* LightIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightIndicatorView.swift; sourceTree = "<group>"; };
 		2D62462B288B797D00473B79 /* DoubleThreeQuarterKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThreeQuarterKeycapView.swift; sourceTree = "<group>"; };
 		2D62462D288B84BA00473B79 /* SpacebarKeycapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacebarKeycapView.swift; sourceTree = "<group>"; };
 		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				2DCC72F82859193F00AB71E1 /* Trapezoid.swift */,
 				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
 				2DD27BF32891C52400177AED /* TestView.swift */,
+				2D455E852894835C00923AED /* LightIndicatorView.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				2DCC72EB2859071700AB71E1 /* KeychronApp.swift in Sources */,
 				2DD27BFC2891D0E900177AED /* FourthRowKeycapsView.swift in Sources */,
 				2DCC72FD285940D300AB71E1 /* SingleKeycapView.swift in Sources */,
+				2D455E862894835C00923AED /* LightIndicatorView.swift in Sources */,
 				2D8F3F2F288B735300EBAD5C /* DoubleQuarterKeycapView.swift in Sources */,
 				2DCC72F92859193F00AB71E1 /* Trapezoid.swift in Sources */,
 				2DA6194D286E7D7B00C2AF84 /* SingleThreeQuarterKeycapView.swift in Sources */,
@@ -396,7 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,7 +411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -424,7 +428,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,7 +439,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

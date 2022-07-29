@@ -29,6 +29,14 @@ struct ThirdRowKeycapsView: View {
                 SingleKeycapView(text: "' \"", colorSet: .lightGrayKeycap)
                 DoubleQuarterKeycapView(text: "↵", colorSet: .darkGrayKeycap)
             } // HStack
+            
+            Spacer().frame(width: Keycaps.Dimensions.sectorSpacing)
+            
+            HStack(spacing: Keycaps.Dimensions.horizontalSpacing) {
+                LightIndicatorView(option: .energy)
+                LightIndicatorView(option: .bluetooth)
+                LightIndicatorView(option: .caps)
+            } // HStack
         }  // HStack
     }
 }
