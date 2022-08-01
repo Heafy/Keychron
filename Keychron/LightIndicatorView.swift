@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum LightIndicator {
+enum LightIndicator: String {
     
     case energy
     case bluetooth
@@ -45,7 +45,7 @@ struct LightIndicatorView: View {
                     .padding(1)
                     .border(color, width: 1)
             } else {
-                Image("energy")
+                Image(option.rawValue)
                     .resizable()
                     .frame(width: 10, height: 10)
                     .aspectRatio(contentMode: .fit)
