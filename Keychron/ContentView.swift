@@ -15,43 +15,12 @@ struct ContentView: View {
     private var border: Color = Color(.sRGB, red: 35/255, green: 35/255, blue: 35/255, opacity: 1.0)
     
     var body: some View {
-        ZStack {
-            LinearGradient(gradient: Gradient(colors: [startGradient, endGradient]), startPoint: .top, endPoint: .bottom)
-                .ignoresSafeArea()
-            
-            VStack(alignment: .leading, spacing: Constants.Dimensions.verticalSpacing) {
-                FirstRowView()
-                Spacer().frame(height: Constants.Dimensions.verticalSpacing * 5)
-                SecondRowView()
-                ThirdRowView()
-                FourthRowView()
-                FifthRowView()
-                SixthRowView()
-            } // VStack
-            .padding(10)
-            .background(background)
-            .border(border, width: 8)
-            
-            Rectangle()
-                .fill(background)
-                .frame(width: 8, height: 8)
-                .offset(x: 559, y: 184)
-            
-            Rectangle()
-                .fill(background)
-                .frame(width: 8, height: 8)
-                .offset(x: 559, y: -184)
-            
-            Rectangle()
-                .fill(background)
-                .frame(width: 8, height: 8)
-                .offset(x: -559, y: 184)
-            
-            Rectangle()
-                .fill(background)
-                .frame(width: 8, height: 8)
-                .offset(x: -559, y: -184)
-        } // ZStack
+        NavigationView {
+            List {
+                NavigationLink("K6", destination: K6View())
+                NavigationLink("K8", destination: K8View())
+            }
+        }
     }
 }
 
@@ -59,5 +28,16 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewInterfaceOrientation(.landscapeLeft)
+    }
+}
+
+
+extension Color {
+    static var random: Color {
+        return Color(
+            red: .random(in: 0...1),
+            green: .random(in: 0...1),
+            blue: .random(in: 0...1)
+        )
     }
 }

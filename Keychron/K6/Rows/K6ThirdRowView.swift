@@ -1,13 +1,13 @@
 //
-//  FourthRowView.swift
+//  K6ThirdRowView.swift
 //  Keychron
 //
-//  Created by Jorge Martinez on 27/07/22.
+//  Created by indra on 27/08/22.
 //
 
 import SwiftUI
 
-struct FourthRowView: View {
+struct K6ThirdRowView: View {
     var body: some View {
         HStack(spacing: Constants.Dimensions.horizontalSpacing) {
             
@@ -28,22 +28,15 @@ struct FourthRowView: View {
                 SingleKCView(text: "; :", colorSet: .lightGrayKC)
                 SingleKCView(text: "' \"", colorSet: .lightGrayKC)
                 DoubleQuarterKCView(text: "↵", colorSet: .darkGrayKC)
-            } // HStack
-            
-            Spacer().frame(width: Constants.Dimensions.sectorSpacing)
-            
-            HStack(spacing: Constants.Dimensions.horizontalSpacing) {
-                LightIndicatorView(option: .energy)
-                LightIndicatorView(option: .bluetooth)
-                LightIndicatorView(option: .caps)
+                SingleKCView(text: "pgup", colorSet: .darkGrayKC)
             } // HStack
         }  // HStack
     }
 }
 
-struct FourthRowView_Previews: PreviewProvider {
+struct K6ThirdRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FourthRowView()
+        K6ThirdRowView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

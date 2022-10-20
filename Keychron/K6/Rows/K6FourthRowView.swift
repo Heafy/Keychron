@@ -1,13 +1,13 @@
 //
-//  FifthRowView.swift
+//  K6FourthRowView.swift
 //  Keychron
 //
-//  Created by Jorge Martinez on 27/07/22.
+//  Created by indra on 27/08/22.
 //
 
 import SwiftUI
 
-struct FifthRowView: View {
+struct K6FourthRowView: View {
     var body: some View {
         HStack(spacing: Constants.Dimensions.horizontalSpacing) {
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
@@ -25,23 +25,18 @@ struct FifthRowView: View {
                 SingleKCView(text: ", <", colorSet: .lightGrayKC)
                 SingleKCView(text: ". >", colorSet: .lightGrayKC)
                 SingleKCView(text: "/ ?", colorSet: .lightGrayKC)
-                DoubleThreeQuarterKCView(text: "shift", colorSet: .darkGrayKC)
-            } // HStack
-            
-            Spacer().frame(width: Constants.Dimensions.sectorSpacing)
-            
-            HStack(spacing: Constants.Dimensions.horizontalSpacing) {
-                Spacer().frame(width: Constants.Size.single)
+                SingleThreeQuarterKCView(text: "shift", colorSet: .darkGrayKC)
                 SingleKCView(text: "↑", colorSet: .lightGrayKC)
-                Spacer().frame(width: Constants.Size.single)
+                SingleKCView(text: "pgdn", colorSet: .darkGrayKC)
             } // HStack
         } // HStack
     }
 }
 
-struct FifthRowView_Previews: PreviewProvider {
+
+struct K6FourthView_Previews: PreviewProvider {
     static var previews: some View {
-        FifthRowView()
+        K6FourthRowView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

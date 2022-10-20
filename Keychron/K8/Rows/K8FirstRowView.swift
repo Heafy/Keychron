@@ -1,5 +1,5 @@
 //
-//  FirstRowView.swift
+//  K8FirstRowView.swift
 //  Keychron
 //
 //  Created by Jorge Martinez on 27/07/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FirstRowView: View {
+struct K8FirstRowView: View {
     
     private let firstSpacer: CGFloat = 47
     private let secondSpacer: CGFloat = 36
@@ -58,7 +58,7 @@ struct FirstRowView: View {
 
 struct FirstRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FirstRowView()
+        K8FirstRowView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

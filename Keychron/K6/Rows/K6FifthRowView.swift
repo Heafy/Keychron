@@ -1,13 +1,13 @@
 //
-//  SixthRowView.swift
+//  K6FifthRowView.swift
 //  Keychron
 //
-//  Created by Jorge Martinez on 27/07/22.
+//  Created by indra on 27/08/22.
 //
 
 import SwiftUI
 
-struct SixthRowView: View {
+struct K6FifthRowView: View {
     var body: some View {
         HStack(spacing: Constants.Dimensions.horizontalSpacing) {
             
@@ -16,15 +16,11 @@ struct SixthRowView: View {
                 SingleQuarterKCView(text: "option", symbol: .option ,colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "command", symbol: .command  ,colorSet: .darkGrayKC)
                 SpacebarKCView()
-                SingleQuarterKCView(symbol: .command, colorSet: .darkGrayKC)
-                SingleQuarterKCView(text: "option", colorSet: .darkGrayKC)
-                SingleQuarterKCView(text: "fn", colorSet: .darkGrayKC)
-                SingleQuarterKCView(text: "control", colorSet: .darkGrayKC)
-            } // HStack
-            
-            Spacer().frame(width: Constants.Dimensions.sectorSpacing)
-            
+                SingleKCView(text: Constants.Unicode.command.rawValue, colorSet: .lightGrayKC)
+            } // HStack            
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
+                SingleKCView(text: "fn1", colorSet: .lightGrayKC)
+                SingleKCView(text: "fn2", colorSet: .lightGrayKC)
                 SingleKCView(text: "←", colorSet: .lightGrayKC)
                 SingleKCView(text: "↓", colorSet: .lightGrayKC)
                 SingleKCView(text: "→", colorSet: .lightGrayKC)
@@ -33,9 +29,9 @@ struct SixthRowView: View {
     }
 }
 
-struct SixthRowView_Previews: PreviewProvider {
+struct K6FifthView_Previews: PreviewProvider {
     static var previews: some View {
-        SixthRowView()
+        K6FifthRowView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
