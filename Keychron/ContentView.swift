@@ -9,14 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var index = 0
+    
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink("K2 75%", destination: K2View())
-                NavigationLink("K6 65%", destination: K6View())
-                NavigationLink("K8 80%", destination: K8View())
-            }
-        }
+        TabView() {
+            K2View()
+            K6View()
+            K8View()
+        } //TabView
+        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+        .ignoresSafeArea()
     }
 }
 

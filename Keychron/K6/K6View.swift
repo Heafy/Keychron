@@ -13,14 +13,19 @@ struct K6View: View {
         ZStack {
             GradientView()
             
-            VStack(alignment: .leading, spacing: Constants.Dimensions.verticalSpacing) {
-                K6FirstRowView()
-                K6SecondRowView()
-                K6ThirdRowView()
-                K6FourthRowView()
-                K6FifthRowView()
+            VStack(spacing: Constants.Dimensions.titleSpacing) {
+                
+                TitleText(text: "K6 / 65%")
+                
+                VStack(alignment: .leading, spacing: Constants.Dimensions.verticalSpacing) {
+                    K6FirstRowView()
+                    K6SecondRowView()
+                    K6ThirdRowView()
+                    K6FourthRowView()
+                    K6FifthRowView()
+                } // VStack
+                .keyboardBorder()
             } // VStack
-            .keyboardBorder()
         } // ZStack
     }
 }

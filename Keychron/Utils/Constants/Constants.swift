@@ -55,6 +55,7 @@ struct Constants {
         static let verticalSpacing: CGFloat = 1
         static let horizontalSpacing: CGFloat = 0.5
         static let sectorSpacing: CGFloat = 15
+        static let titleSpacing: CGFloat = 20
     }
     
     struct BackgroundColorPalette {

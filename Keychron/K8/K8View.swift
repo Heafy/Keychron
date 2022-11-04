@@ -13,16 +13,21 @@ struct K8View: View {
         ZStack {
             GradientView()
             
-            VStack(alignment: .leading, spacing: Constants.Dimensions.verticalSpacing) {
-                K8FirstRowView()
-                Spacer().frame(height: Constants.Dimensions.verticalSpacing * 5)
-                K8SecondRowView()
-                K8ThirdRowView()
-                K8FourthRowView()
-                K8FifthRowView()
-                K8SixthRowView()
+            VStack(spacing: Constants.Dimensions.titleSpacing) {
+                
+                TitleText(text: "K8 / 80%")
+                
+                VStack(alignment: .leading, spacing: Constants.Dimensions.verticalSpacing) {
+                    K8FirstRowView()
+                    Spacer().frame(height: Constants.Dimensions.verticalSpacing * 5)
+                    K8SecondRowView()
+                    K8ThirdRowView()
+                    K8FourthRowView()
+                    K8FifthRowView()
+                    K8SixthRowView()
+                } // VStack
+                .keyboardBorder()
             } // VStack
-            .keyboardBorder()
         } // ZStack
     }
 }

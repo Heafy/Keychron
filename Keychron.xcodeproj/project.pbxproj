@@ -27,6 +27,7 @@
 		2D6640E82914943500EE4E75 /* K2SixthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640E72914943500EE4E75 /* K2SixthRowView.swift */; };
 		2D6640EB2914AE3000EE4E75 /* KeyboardBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640EA2914AE3000EE4E75 /* KeyboardBorder.swift */; };
 		2D6640EE2914BB0100EE4E75 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640ED2914BB0100EE4E75 /* GradientView.swift */; };
+		2D6640F02914C0ED00EE4E75 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640EF2914C0ED00EE4E75 /* TitleText.swift */; };
 		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
 		2D7E9229285BE0BD006F0D22 /* SingleQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */; };
 		2D7E922B285C0AEE006F0D22 /* SingleHalfKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */; };
@@ -72,6 +73,7 @@
 		2D6640E72914943500EE4E75 /* K2SixthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K2SixthRowView.swift; sourceTree = "<group>"; };
 		2D6640EA2914AE3000EE4E75 /* KeyboardBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBorder.swift; sourceTree = "<group>"; };
 		2D6640ED2914BB0100EE4E75 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2D6640EF2914C0ED00EE4E75 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
 		2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKCView.swift; sourceTree = "<group>"; };
 		2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHalfKCView.swift; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 				2DCC72F02859071900AB71E1 /* Preview Content */,
 				2D455E852894835C00923AED /* LightIndicatorView.swift */,
 				2D6640ED2914BB0100EE4E75 /* GradientView.swift */,
+				2D6640EF2914C0ED00EE4E75 /* TitleText.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				2D6640DC29148A1600EE4E75 /* K2FirstRowView.swift in Sources */,
 				2D328F7828B9C77500540F0E /* K8View.swift in Sources */,
 				2D328F8728B9E3C100540F0E /* K6FifthRowView.swift in Sources */,
+				2D6640F02914C0ED00EE4E75 /* TitleText.swift in Sources */,
 				2D62462C288B797D00473B79 /* DoubleThreeQuarterKCView.swift in Sources */,
 				2D6640EB2914AE3000EE4E75 /* KeyboardBorder.swift in Sources */,
 				2D6640E4291492B100EE4E75 /* K2FourthRowView.swift in Sources */,

@@ -19,8 +19,8 @@ struct K2SixthRowView: View {
                 SingleKCView(text: Constants.Unicode.command.rawValue, colorSet: .lightGrayKC)
             } // HStack
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
-                SingleKCView(text: "fn1", colorSet: .lightGrayKC)
-                SingleKCView(text: "fn2", colorSet: .lightGrayKC)
+                SingleKCView(text: "fn", colorSet: .lightGrayKC)
+                SingleKCView(text: "control", colorSet: .lightGrayKC)
                 SingleKCView(text: "←", colorSet: .darkGrayKC)
                 SingleKCView(text: "↓", colorSet: .darkGrayKC)
                 SingleKCView(text: "→", colorSet: .darkGrayKC)
