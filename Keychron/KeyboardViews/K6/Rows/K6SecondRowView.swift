@@ -13,9 +13,9 @@ struct K6SecondRowView: View {
             
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
                 SingleHalfKCView(text: "tab", colorSet: .darkGrayKC)
-                SingleKCView(text: "Q", colorSet: .lightGrayKC)
-                SingleKCView(text: "W", colorSet: .lightGrayKC)
-                SingleKCView(text: "E", colorSet: .lightGrayKC)
+                SingleKCView(text: "Q", bluetoothEnabled: true, colorSet: .lightGrayKC)
+                SingleKCView(text: "W", bluetoothEnabled: true, colorSet: .lightGrayKC)
+                SingleKCView(text: "E", bluetoothEnabled: true, colorSet: .lightGrayKC)
                 SingleKCView(text: "R", colorSet: .lightGrayKC)
                 SingleKCView(text: "T", colorSet: .lightGrayKC)
                 SingleKCView(text: "Y", colorSet: .lightGrayKC)

@@ -2,7 +2,7 @@
 //  TitleText.swift
 //  Keychron
 //
-//  Created by indra on 03/11/22.
+//  Created by Jorge Martinez on 03/11/22.
 //
 
 import SwiftUI

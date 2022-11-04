@@ -1,29 +1,27 @@
 //
-//  K2View.swift
+//  K6View.swift
 //  Keychron
 //
-//  Created by Jorge Martinez on 03/11/22.
+//  Created by Jorge Martinez on 26/08/22.
 //
 
 import SwiftUI
 
-struct K2View: View {
-    
+struct K6View: View {
     var body: some View {
         ZStack {
             GradientView()
             
             VStack(spacing: Constants.Dimensions.titleSpacing) {
-               
-                TitleText(text: "K2 / 75%")
+                
+                TitleText(text: "K6 / 65%")
                 
                 VStack(alignment: .leading, spacing: Constants.Dimensions.verticalSpacing) {
-                    K2FirstRowView()
-                    K2SecondRowView()
-                    K2ThirdRowView()
-                    K2FourthRowView()
-                    K2FifthRowView()
-                    K2SixthRowView()
+                    K6FirstRowView()
+                    K6SecondRowView()
+                    K6ThirdRowView()
+                    K6FourthRowView()
+                    K6FifthRowView()
                 } // VStack
                 .keyboardBorder()
             } // VStack
@@ -31,9 +29,9 @@ struct K2View: View {
     }
 }
 
-struct K2View_Previews: PreviewProvider {
+struct K6View_Previews: PreviewProvider {
     static var previews: some View {
-        K2View()
+        K6View()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

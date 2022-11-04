@@ -9,7 +9,9 @@ import SwiftUI
 
 struct K6FourthRowView: View {
     var body: some View {
+        
         HStack(spacing: Constants.Dimensions.horizontalSpacing) {
+            
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
                 DoubleQuarterKCView(text: "shift", colorSet: .darkGrayKC)
                 SingleKCView(text: "Z", colorSet: .lightGrayKC)

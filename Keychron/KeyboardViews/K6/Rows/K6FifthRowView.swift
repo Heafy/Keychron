@@ -9,6 +9,7 @@ import SwiftUI
 
 struct K6FifthRowView: View {
     var body: some View {
+        
         HStack(spacing: Constants.Dimensions.horizontalSpacing) {
             
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
@@ -17,7 +18,8 @@ struct K6FifthRowView: View {
                 SingleQuarterKCView(text: "command", symbol: .command  ,colorSet: .darkGrayKC)
                 SpacebarKCView(colorSet: .lightGrayKC)
                 SingleKCView(text: Constants.Unicode.command.rawValue, colorSet: .lightGrayKC)
-            } // HStack            
+            } // HStack
+            
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {
                 SingleKCView(text: "fn1", colorSet: .lightGrayKC)
                 SingleKCView(text: "fn2", colorSet: .lightGrayKC)

@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct K2FirstRowView: View {
-    
-    private let secondSpacer: CGFloat = 36
-    
     var body: some View {
         HStack(spacing: Constants.Dimensions.horizontalSpacing) {
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {

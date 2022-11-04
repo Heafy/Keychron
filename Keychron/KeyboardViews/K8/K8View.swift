@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct K8View: View {
-    
     var body: some View {
         ZStack {
             GradientView()
