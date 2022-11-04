@@ -13,8 +13,9 @@ struct ContentView: View {
     
     var body: some View {
         TabView() {
-            K2View()
+            K12View()
             K6View()
+            K2View()
             K8View()
         } //TabView
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
