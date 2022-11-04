@@ -17,8 +17,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("K6", destination: K6View())
-                NavigationLink("K8", destination: K8View())
+                NavigationLink("K2 75%", destination: K2View())
+                NavigationLink("K6 65%", destination: K6View())
+                NavigationLink("K8 80%", destination: K8View())
             }
         }
     }
