@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SpacebarKCView: Keycap {
     
-    var colorSet: ColorSet = .lightGrayKC
+    var colorSet: ColorSet
     var width: CGFloat = Constants.Size.spacebar
     
     var body: some View {
@@ -47,7 +47,7 @@ struct SpacebarKCView: Keycap {
 
 struct SpacebarKCView_Previews: PreviewProvider {
     static var previews: some View {
-        SpacebarKCView()
+        SpacebarKCView(colorSet: .lightGrayKC)
             .previewLayout(.sizeThatFits)
             .padding()
     }

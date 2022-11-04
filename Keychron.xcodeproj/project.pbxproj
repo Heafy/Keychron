@@ -15,7 +15,7 @@
 		2D328F8528B9E34700540F0E /* K6FourthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D328F8428B9E34700540F0E /* K6FourthRowView.swift */; };
 		2D328F8728B9E3C100540F0E /* K6FifthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D328F8628B9E3C100540F0E /* K6FifthRowView.swift */; };
 		2D455E862894835C00923AED /* LightIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D455E852894835C00923AED /* LightIndicatorView.swift */; };
-		2D455E8A289497AD00923AED /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D455E89289497AD00923AED /* ColorSet.swift */; };
+		2D455E8A289497AD00923AED /* KeycapColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D455E89289497AD00923AED /* KeycapColorSet.swift */; };
 		2D62462C288B797D00473B79 /* DoubleThreeQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462B288B797D00473B79 /* DoubleThreeQuarterKCView.swift */; };
 		2D62462E288B84BA00473B79 /* SpacebarKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D62462D288B84BA00473B79 /* SpacebarKCView.swift */; };
 		2D6640D92914800B00EE4E75 /* K2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640D82914800B00EE4E75 /* K2View.swift */; };
@@ -25,6 +25,8 @@
 		2D6640E4291492B100EE4E75 /* K2FourthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640E3291492B100EE4E75 /* K2FourthRowView.swift */; };
 		2D6640E6291493CB00EE4E75 /* K2FifthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640E5291493CB00EE4E75 /* K2FifthRowView.swift */; };
 		2D6640E82914943500EE4E75 /* K2SixthRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640E72914943500EE4E75 /* K2SixthRowView.swift */; };
+		2D6640EB2914AE3000EE4E75 /* KeyboardBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640EA2914AE3000EE4E75 /* KeyboardBorder.swift */; };
+		2D6640EE2914BB0100EE4E75 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6640ED2914BB0100EE4E75 /* GradientView.swift */; };
 		2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9226285BBFDF006F0D22 /* Keycap.swift */; };
 		2D7E9229285BE0BD006F0D22 /* SingleQuarterKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */; };
 		2D7E922B285C0AEE006F0D22 /* SingleHalfKCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */; };
@@ -58,7 +60,7 @@
 		2D328F8428B9E34700540F0E /* K6FourthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K6FourthRowView.swift; sourceTree = "<group>"; };
 		2D328F8628B9E3C100540F0E /* K6FifthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K6FifthRowView.swift; sourceTree = "<group>"; };
 		2D455E852894835C00923AED /* LightIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightIndicatorView.swift; sourceTree = "<group>"; };
-		2D455E89289497AD00923AED /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		2D455E89289497AD00923AED /* KeycapColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeycapColorSet.swift; sourceTree = "<group>"; };
 		2D62462B288B797D00473B79 /* DoubleThreeQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleThreeQuarterKCView.swift; sourceTree = "<group>"; };
 		2D62462D288B84BA00473B79 /* SpacebarKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacebarKCView.swift; sourceTree = "<group>"; };
 		2D6640D82914800B00EE4E75 /* K2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K2View.swift; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		2D6640E3291492B100EE4E75 /* K2FourthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K2FourthRowView.swift; sourceTree = "<group>"; };
 		2D6640E5291493CB00EE4E75 /* K2FifthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K2FifthRowView.swift; sourceTree = "<group>"; };
 		2D6640E72914943500EE4E75 /* K2SixthRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K2SixthRowView.swift; sourceTree = "<group>"; };
+		2D6640EA2914AE3000EE4E75 /* KeyboardBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBorder.swift; sourceTree = "<group>"; };
+		2D6640ED2914BB0100EE4E75 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		2D7E9226285BBFDF006F0D22 /* Keycap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycap.swift; sourceTree = "<group>"; };
 		2D7E9228285BE0BD006F0D22 /* SingleQuarterKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleQuarterKCView.swift; sourceTree = "<group>"; };
 		2D7E922A285C0AEE006F0D22 /* SingleHalfKCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHalfKCView.swift; sourceTree = "<group>"; };
@@ -159,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				2DCC72FA28593C9200AB71E1 /* Constants.swift */,
-				2D455E89289497AD00923AED /* ColorSet.swift */,
+				2D455E89289497AD00923AED /* KeycapColorSet.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -194,6 +198,24 @@
 				2D6640E72914943500EE4E75 /* K2SixthRowView.swift */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		2D6640E92914AE1100EE4E75 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D455E872894969C00923AED /* Shapes */,
+				2D455E88289496AA00923AED /* Constants */,
+				2D6640EC2914B1C300EE4E75 /* ViewModifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2D6640EC2914B1C300EE4E75 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				2D6640EA2914AE3000EE4E75 /* KeyboardBorder.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
@@ -248,17 +270,17 @@
 		2DCC72E92859071700AB71E1 /* Keychron */ = {
 			isa = PBXGroup;
 			children = (
+				2D6640E92914AE1100EE4E75 /* Utils */,
 				2D6640D72914800200EE4E75 /* K2 */,
 				2D328F7C28B9D87000540F0E /* K6 */,
 				2D328F7B28B9D58700540F0E /* K8 */,
-				2D455E88289496AA00923AED /* Constants */,
-				2D455E872894969C00923AED /* Shapes */,
 				2D7E9225285BBFCA006F0D22 /* Keycaps */,
 				2DCC72EA2859071700AB71E1 /* KeychronApp.swift */,
 				2DCC72EC2859071700AB71E1 /* ContentView.swift */,
 				2DCC72EE2859071900AB71E1 /* Assets.xcassets */,
 				2DCC72F02859071900AB71E1 /* Preview Content */,
 				2D455E852894835C00923AED /* LightIndicatorView.swift */,
+				2D6640ED2914BB0100EE4E75 /* GradientView.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";
@@ -353,12 +375,13 @@
 				2D328F7828B9C77500540F0E /* K8View.swift in Sources */,
 				2D328F8728B9E3C100540F0E /* K6FifthRowView.swift in Sources */,
 				2D62462C288B797D00473B79 /* DoubleThreeQuarterKCView.swift in Sources */,
+				2D6640EB2914AE3000EE4E75 /* KeyboardBorder.swift in Sources */,
 				2D6640E4291492B100EE4E75 /* K2FourthRowView.swift in Sources */,
 				2D7E9229285BE0BD006F0D22 /* SingleQuarterKCView.swift in Sources */,
 				2D62462E288B84BA00473B79 /* SpacebarKCView.swift in Sources */,
 				2D6640E82914943500EE4E75 /* K2SixthRowView.swift in Sources */,
 				2DD27BF82891CBE200177AED /* K8ThirdRowView.swift in Sources */,
-				2D455E8A289497AD00923AED /* ColorSet.swift in Sources */,
+				2D455E8A289497AD00923AED /* KeycapColorSet.swift in Sources */,
 				2DD27BFE2891D1B300177AED /* K8SixthRowView.swift in Sources */,
 				2D7E9227285BBFDF006F0D22 /* Keycap.swift in Sources */,
 				2D7E922B285C0AEE006F0D22 /* SingleHalfKCView.swift in Sources */,
@@ -370,6 +393,7 @@
 				2D8F3F2B288B655900EBAD5C /* DoubleKCView.swift in Sources */,
 				2DD27BF62891C7D800177AED /* K8SecondRowView.swift in Sources */,
 				2D328F8128B9DECF00540F0E /* K6SecondRowView.swift in Sources */,
+				2D6640EE2914BB0100EE4E75 /* GradientView.swift in Sources */,
 				2D328F8528B9E34700540F0E /* K6FourthRowView.swift in Sources */,
 				2D328F8328B9E2E500540F0E /* K6ThirdRowView.swift in Sources */,
 				2DD346F728932516008EE636 /* KCTextView.swift in Sources */,

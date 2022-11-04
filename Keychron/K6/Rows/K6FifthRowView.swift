@@ -2,7 +2,7 @@
 //  K6FifthRowView.swift
 //  Keychron
 //
-//  Created by indra on 27/08/22.
+//  Created by Jorge Martinez on 27/08/22.
 //
 
 import SwiftUI
@@ -15,7 +15,7 @@ struct K6FifthRowView: View {
                 SingleQuarterKCView(text: "control", colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "option", symbol: .option ,colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "command", symbol: .command  ,colorSet: .darkGrayKC)
-                SpacebarKCView()
+                SpacebarKCView(colorSet: .lightGrayKC)
                 SingleKCView(text: Constants.Unicode.command.rawValue, colorSet: .lightGrayKC)
             } // HStack            
             HStack(spacing: Constants.Dimensions.horizontalSpacing) {

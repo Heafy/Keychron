@@ -2,7 +2,7 @@
 //  K6ThirdRowView.swift
 //  Keychron
 //
-//  Created by indra on 27/08/22.
+//  Created by Jorge Martinez on 27/08/22.
 //
 
 import SwiftUI

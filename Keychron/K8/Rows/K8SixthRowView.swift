@@ -15,7 +15,7 @@ struct K8SixthRowView: View {
                 SingleQuarterKCView(text: "control", colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "option", symbol: .option ,colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "command", symbol: .command  ,colorSet: .darkGrayKC)
-                SpacebarKCView()
+                SpacebarKCView(colorSet: .lightGrayKC)
                 SingleQuarterKCView(symbol: .command, colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "option", colorSet: .darkGrayKC)
                 SingleQuarterKCView(text: "fn", colorSet: .darkGrayKC)

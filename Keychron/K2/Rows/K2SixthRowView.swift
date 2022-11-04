@@ -2,7 +2,7 @@
 //  K2SixthRowView.swift
 //  Keychron
 //
-//  Created by  on 03/11/22.
+//  Created by Jorge Martinez on 03/11/22.
 //
 
 import SwiftUI
