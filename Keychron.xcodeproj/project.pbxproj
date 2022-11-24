@@ -217,6 +217,7 @@
 		2D6640E92914AE1100EE4E75 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2D6640FF2914E1C700EE4E75 /* Views */,
 				2D455E872894969C00923AED /* Shapes */,
 				2D455E88289496AA00923AED /* Constants */,
 				2D6640EC2914B1C300EE4E75 /* ViewModifiers */,
@@ -251,6 +252,27 @@
 				2D6640FD2914D3FE00EE4E75 /* K12FifthRowView.swift */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		2D6640FF2914E1C700EE4E75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D455E852894835C00923AED /* LightIndicatorView.swift */,
+				2D6640ED2914BB0100EE4E75 /* GradientView.swift */,
+				2D6640EF2914C0ED00EE4E75 /* TitleText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D6641002914E1D400EE4E75 /* KeyboardViews */ = {
+			isa = PBXGroup;
+			children = (
+				2D6640D72914800200EE4E75 /* K2 */,
+				2D328F7C28B9D87000540F0E /* K6 */,
+				2D328F7B28B9D58700540F0E /* K8 */,
+				2D6640F12914C63500EE4E75 /* K12 */,
+			);
+			path = KeyboardViews;
 			sourceTree = "<group>";
 		};
 		2D7E9225285BBFCA006F0D22 /* Keycaps */ = {
@@ -305,19 +327,13 @@
 		2DCC72E92859071700AB71E1 /* Keychron */ = {
 			isa = PBXGroup;
 			children = (
-				2D6640F12914C63500EE4E75 /* K12 */,
+				2D6641002914E1D400EE4E75 /* KeyboardViews */,
 				2D6640E92914AE1100EE4E75 /* Utils */,
-				2D6640D72914800200EE4E75 /* K2 */,
-				2D328F7C28B9D87000540F0E /* K6 */,
-				2D328F7B28B9D58700540F0E /* K8 */,
 				2D7E9225285BBFCA006F0D22 /* Keycaps */,
 				2DCC72EA2859071700AB71E1 /* KeychronApp.swift */,
 				2DCC72EC2859071700AB71E1 /* ContentView.swift */,
 				2DCC72EE2859071900AB71E1 /* Assets.xcassets */,
 				2DCC72F02859071900AB71E1 /* Preview Content */,
-				2D455E852894835C00923AED /* LightIndicatorView.swift */,
-				2D6640ED2914BB0100EE4E75 /* GradientView.swift */,
-				2D6640EF2914C0ED00EE4E75 /* TitleText.swift */,
 			);
 			path = Keychron;
 			sourceTree = "<group>";
